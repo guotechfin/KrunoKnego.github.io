@@ -4,17 +4,29 @@ layout: default
 
 <div class="home">
 
-  <h1>Posts</h1>
+  <h1>Latest posts</h1>
 
-  <ul class="posts">
+  <!--<ul class="posts">-->
     {% for post in site.posts %}
-      <li>
+      <!--<li>-->
+      <div class="post">
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
+          <article class="post-content">
+              {{ post.content }}
+          </article>
+      </div>
+      <!--</li>-->
     {% endfor %}
-  </ul>
+  <!--</ul>-->
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <!-- FIRST BLOG POST ON FRONTPAGE -->
+    <!--<div class="blog-index">-->
+        <!--{% assign post = site.posts.first %}-->
+        <!--{% assign content = post.content %}-->
+        <!--{% include post_detail.html %}-->
+    <!--</div>-->
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

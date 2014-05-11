@@ -6,6 +6,8 @@ baseurl: ""
 url: "http://krunoknego.com"
 gitusername: KrunoKnego
 twitterusername: KKnego
+username: Kruno Knego
+info: "I'm a passionate web developer specialized in Symfony2 framework. Currently employed at <a href=\"http://www.locastic.com\">Locastic</a>"
 
 # Build settings
 markdown: kramdown

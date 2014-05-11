@@ -4,8 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm a passionate web developer that constantly tries to improve himself. My tool of choice for all my web
+development is PHP. Now like every other sane person I'm using PHP frameworks. For a while I used Codeigniter but when
+I found out about Symfony2 I simply fell in love with it.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+From time to time you can find me doing some mobile development. I know my way around Android and in my free time
+I'm trying to learn how to develop for iOS.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+If you wish to contact me you can do so at <a href="mailto:{{ site.email }}">{{ site.email }}</a>

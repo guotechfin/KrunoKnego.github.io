@@ -1,0 +1,8 @@
+/*OVERRIDING DEFAULT CSS OF JEKYLL*/
+.site-header {
+    border-top: 0 !important;
+}
+
+.blog-index {
+    float: right;
+}
