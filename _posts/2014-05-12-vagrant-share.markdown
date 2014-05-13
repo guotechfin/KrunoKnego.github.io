@@ -57,3 +57,6 @@ command
     vagrant connect your_machine_name
 {% endhighlight %}
 
+
+This feature will make your life easier if you're constantly dealing with clients that want you to show them
+your progress on their websites or if you just want to show off to your friends.
