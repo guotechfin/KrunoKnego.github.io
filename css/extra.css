@@ -15,3 +15,16 @@
 body {
     font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
+
+.header-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.rss-icon {
+    background: url("rss-16.png");
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+
+}
