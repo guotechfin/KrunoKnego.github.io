@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Symfony2 & Doctrine2 optimization tips"
-date:   2014-05-15 23:06:00
-categories: symfony2 doctrine2 optimization
+title:  "Facebook apps dev mode"
+date:   2014-05-27 23:06:00
+categories: facebook apps dev
 ---
 
 {% highlight php5 linenos startinline %}
