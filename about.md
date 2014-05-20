@@ -10,5 +10,3 @@ I found out about Symfony2 I simply fell in love with it.
 
 From time to time you can find me doing some mobile development. I know my way around Android and in my free time
 I'm trying to develop android applications.
-
-If you wish to contact me you can do so at <a href="mailto:{{ site.email }}">{{ site.email }}</a>
