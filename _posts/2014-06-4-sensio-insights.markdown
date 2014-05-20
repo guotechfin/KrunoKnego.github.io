@@ -2,7 +2,7 @@
 layout: post
 title:  "Sensio Insights"
 date:   2014-05-29 23:06:00
-categories: facebook apps dev
+categories: sensio insights
 ---
 
 {% highlight php5 linenos startinline %}
