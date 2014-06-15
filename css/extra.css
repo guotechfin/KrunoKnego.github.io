@@ -64,3 +64,7 @@ body {
     -moz-transform:rotate(360deg);
     -o-transform:rotate(360deg);
 }
+
+.center-image {
+    margin: 0 auto;
+}

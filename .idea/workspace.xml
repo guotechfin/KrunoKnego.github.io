@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="26fc84fc-7f3b-4c7e-8a58-07e539b1c05d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-05-12-vagrant-share.markdown" afterPath="$PROJECT_DIR$/_posts/2014-05-12-vagrant-share.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/extra.css" afterPath="$PROJECT_DIR$/css/extra.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KrunoKnego.github.io.iws" />
@@ -49,10 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-05-12-vagrant-share.markdown" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2014-05-12-vagrant-share.markdown" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2014-05-12-vagrant-share.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="40" selection-start="141" selection-end="141" vertical-scroll-proportion="0.13707572" vertical-offset="0" max-vertical-offset="1050">
+            <state line="7" column="61" selection-start="162" selection-end="162" vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="1050">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extra.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/extra.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="17" selection-start="918" selection-end="918" vertical-scroll-proportion="0.96713024" vertical-offset="0" max-vertical-offset="1125">
               <folding />
             </state>
           </provider>
@@ -92,6 +102,7 @@
         <option value="$PROJECT_DIR$/_posts/2014-05-15-symfony2-doctrine2-optimization.markdown" />
         <option value="$PROJECT_DIR$/_posts/2014-05-11-welcome-to-jekyll.markdown" />
         <option value="$PROJECT_DIR$/_posts/2014-05-12-vagrant-share.markdown" />
+        <option value="$PROJECT_DIR$/css/extra.css" />
       </list>
     </option>
   </component>
@@ -252,7 +263,11 @@
       <created>1402856032954</created>
       <updated>1402856032954</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Vagrant image fix.">
+      <created>1402856112875</created>
+      <updated>1402856112875</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -292,7 +307,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Vagrant image added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Vagrant image added." />
+    <MESSAGE value="Vagrant image fix." />
+    <option name="LAST_COMMIT_MESSAGE" value="Vagrant image fix." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -352,7 +368,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-05-12-vagrant-share.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="141" selection-end="141" vertical-scroll-proportion="0.13707572" vertical-offset="0" max-vertical-offset="1050">
+        <state line="7" column="61" selection-start="162" selection-end="162" vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/extra.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="17" selection-start="918" selection-end="918" vertical-scroll-proportion="0.96713024" vertical-offset="0" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>

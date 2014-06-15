@@ -5,7 +5,7 @@ date:   2014-05-12 23:06:00
 categories: vagrant tools
 ---
 
-![Vagrant]({{ site.url }}/assets/vagrant.jpg)
+![Vagrant]({{ site.url }}/assets/vagrant.jpg){: .center-image}
 
 If you're doing web development and you never heard of Vagrant you better catch up and see what's the
 fuss all about. Basically once you see what Vagrant can do for you, you'll wonder why such tool
