@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26fc84fc-7f3b-4c7e-8a58-07e539b1c05d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-05-12-vagrant-share.markdown" afterPath="$PROJECT_DIR$/_posts/2014-05-12-vagrant-share.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/extra.css" afterPath="$PROJECT_DIR$/css/extra.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -62,7 +61,7 @@
       <file leaf-file-name="extra.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/extra.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="17" selection-start="918" selection-end="918" vertical-scroll-proportion="0.96713024" vertical-offset="0" max-vertical-offset="1125">
+            <state line="69" column="16" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.88622" vertical-offset="334" max-vertical-offset="1140">
               <folding />
             </state>
           </provider>
@@ -267,7 +266,11 @@
       <created>1402856112875</created>
       <updated>1402856112875</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Center images.">
+      <created>1402856369446</created>
+      <updated>1402856369446</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -308,7 +311,8 @@
     </option>
     <MESSAGE value="Vagrant image added." />
     <MESSAGE value="Vagrant image fix." />
-    <option name="LAST_COMMIT_MESSAGE" value="Vagrant image fix." />
+    <MESSAGE value="Center images." />
+    <option name="LAST_COMMIT_MESSAGE" value="Center images." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -375,7 +379,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/extra.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="17" selection-start="918" selection-end="918" vertical-scroll-proportion="0.96713024" vertical-offset="0" max-vertical-offset="1125">
+        <state line="69" column="16" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.88622" vertical-offset="334" max-vertical-offset="1140">
           <folding />
         </state>
       </provider>
