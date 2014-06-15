@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26fc84fc-7f3b-4c7e-8a58-07e539b1c05d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/tmux3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-06-15-tmux.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-05-15-symfony2-doctrine2-optimization.markdown" afterPath="$PROJECT_DIR$/_posts/2014-05-15-symfony2-doctrine2-optimization.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-06-15-tmux.markdown" afterPath="$PROJECT_DIR$/_posts/2014-06-15-tmux.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KrunoKnego.github.io.iws" />
@@ -46,7 +44,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="26" selection-start="1678" selection-end="1678" vertical-scroll-proportion="1.197644" vertical-offset="0" max-vertical-offset="1050">
+            <state line="41" column="18" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.5091623" vertical-offset="226" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -72,7 +70,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="101" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1050">
+            <state line="24" column="12" selection-start="1050" selection-end="1119" vertical-scroll-proportion="-9.444445" vertical-offset="105" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -330,13 +328,18 @@
       <created>1402858185865</created>
       <updated>1402858185865</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Tmux blog post.">
+      <created>1402860603721</created>
+      <updated>1402860603721</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -351,7 +354,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -375,7 +377,8 @@
     <MESSAGE value="Center images fix." />
     <MESSAGE value="Doctrine2 image added.&#10;" />
     <MESSAGE value="Doctrine2 blog post." />
-    <option name="LAST_COMMIT_MESSAGE" value="Doctrine2 blog post." />
+    <MESSAGE value="Tmux blog post." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tmux blog post." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -500,16 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-05-12-vagrant-share.markdown">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="101" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-05-15-symfony2-doctrine2-optimization.markdown">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -520,12 +513,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-12-vagrant-share.markdown">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="12" selection-start="1050" selection-end="1119" vertical-scroll-proportion="-9.444445" vertical-offset="105" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-06-15-tmux.markdown">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="26" selection-start="1678" selection-end="1678" vertical-scroll-proportion="1.197644" vertical-offset="0" max-vertical-offset="1050">
+        <state line="41" column="18" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.5091623" vertical-offset="226" max-vertical-offset="1050">
           <folding />
         </state>
       </provider>

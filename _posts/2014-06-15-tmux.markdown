@@ -58,7 +58,7 @@ To kill session 0 you write the following command:
 ## Learn more about TMUX?
 
 If this isn't enough and you want to learn more about tmux and it's options I suggest
-you look up http://tmux.sourceforge.net/ or find one of the numerous cheat sheets for tmux
+you look up <a href="http://tmux.sourceforge.net/" target="_blank">TMUX</a>  or find one of the numerous cheat sheets for tmux
 that are available online.
 
 
