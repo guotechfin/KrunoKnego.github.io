@@ -44,7 +44,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="18" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.5091623" vertical-offset="226" max-vertical-offset="1050">
+            <state line="3" column="15" selection-start="70" selection-end="70" vertical-scroll-proportion="0.058900524" vertical-offset="0" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -332,7 +332,11 @@
       <created>1402860603721</created>
       <updated>1402860603721</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Link fix.">
+      <created>1402860787573</created>
+      <updated>1402860787573</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -344,7 +348,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -378,7 +382,8 @@
     <MESSAGE value="Doctrine2 image added.&#10;" />
     <MESSAGE value="Doctrine2 blog post." />
     <MESSAGE value="Tmux blog post." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tmux blog post." />
+    <MESSAGE value="Link fix." />
+    <option name="LAST_COMMIT_MESSAGE" value="Link fix." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -528,7 +533,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="18" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.5091623" vertical-offset="226" max-vertical-offset="1050">
+        <state line="3" column="15" selection-start="70" selection-end="70" vertical-scroll-proportion="0.058900524" vertical-offset="0" max-vertical-offset="1050">
           <folding />
         </state>
       </provider>
