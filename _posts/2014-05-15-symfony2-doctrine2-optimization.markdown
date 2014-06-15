@@ -38,7 +38,7 @@ If you're using Symfony2 and you wrote a command. Then you can ignore the piece 
 
 ## Rule 2. Clear your entity manager frequently
 
-Keep your entity manager clean. If you're dealing with a lots of data doctrine2 will keep all the objects
+Keep your entity manager clean. If you're dealing with lots of data doctrine2 will keep all the objects
 in the entity manager. So I advise you to clean it regularly using command
 
 {% highlight php5 %}
@@ -46,7 +46,7 @@ in the entity manager. So I advise you to clean it regularly using command
 {% endhighlight %}
 
 I found that it works best for me when I clear entity manager after I persisted and flushed about 50 objects.
-You can play with this number and find what works you.
+You can play with this number and find what works for you.
 
 One of the problems I encountered while clearing the entity manager is that you can't go over your foreach loop
 with data you pulled with doctrine2 afterwords.

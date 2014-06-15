@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "TMUX - terminal multiplexer"
+date:   2014-05-15 23:06:00
+categories: linux ssh
+---
+
+![Tmux]({{ site.url }}/assets/tmux3.png){: .center-image}
+
+## What is TMUX and why should you use it?
+
+TMUX stands for terminal multiplexer. It lets you easily switch between programs.
+You can detach and later attach to a tmux session.
+
+So why should you use it? I'm a web developer and I found using tmux the most when
+I have a symfony2 command to execute which takes lots of time but I have to use terminal
+to do other things too. So I simply open a new session using tmux. Call my symfony2 command.
+Detach from it and continue with my job.
+
+## How to install TMUX?
+
+{% highlight php5 %}
+    sudo apt-get install tmux
+{% endhighlight %}
+
+
+## How to use TMUX?
+
+To create new session you write
+
+{% highlight php5 %}
+    tmux new
+{% endhighlight %}
+
+You'll be logged in your tmux session and when you're finished you detach from it.
+To detach from your session you press CTRL + B and then press D.
+
+To list all your sessions you use:
+
+{% highlight php5 %}
+    tmux ls
+{% endhighlight %}
+
+Every session that is listed is prepended with a number unless you named your session.
+
+So to attach for example to session prepended with number 0 you simply execute:
+
+{% highlight php5 %}
+    tmux attach -t 0
+{% endhighlight %}
+
+To kill session 0 you write the following command:
+
+{% highlight php5 %}
+    tmux kill-session -t 0
+{% endhighlight %}
+
+## Learn more about TMUX?
+
+If this isn't enough and you want to learn more about tmux and it's options I suggest
+you look up http://tmux.sourceforge.net/ or find one of the numerous cheat sheets for tmux
+that are available online.
+
+
