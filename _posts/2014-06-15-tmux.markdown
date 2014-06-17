@@ -14,8 +14,8 @@ You can detach and later attach to a tmux session.
 
 So why should you use it? I'm a web developer and I found using tmux the most when
 I have a symfony2 command to execute which takes lots of time but I have to use terminal
-to do other things too. So I simply open a new session using tmux. Call my symfony2 command.
-Detach from it and continue with my job.
+to do other things too. So I simply open a new session using tmux, call my symfony2 command,
+detach from it and continue with my job.
 
 ## How to install TMUX?
 
@@ -57,7 +57,7 @@ To kill session 0 you write the following command:
 
 ## Learn more about TMUX?
 
-If this isn't enough and you want to learn more about tmux and it's options I suggest
+If this isn't enough and you want to learn more about tmux and its options I suggest
 you look up <a href="http://tmux.sourceforge.net/" target="_blank">TMUX</a>  or find one of the numerous cheat sheets for tmux
 that are available online.
 
