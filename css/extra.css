@@ -12,6 +12,11 @@
     width: 750px;
 }
 
+.ga-position-mobile {
+    margin: 0 auto;
+    width: 320px;
+}
+
 body {
     font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
