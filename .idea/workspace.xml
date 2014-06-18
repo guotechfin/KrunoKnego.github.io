@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26fc84fc-7f3b-4c7e-8a58-07e539b1c05d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bookmarkcat.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects.md" afterPath="$PROJECT_DIR$/projects.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/extra.css" afterPath="$PROJECT_DIR$/css/extra.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KrunoKnego.github.io.iws" />
@@ -45,19 +45,19 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="12" selection-start="742" selection-end="742" vertical-scroll-proportion="-12.777778" vertical-offset="0" max-vertical-offset="1050">
+            <state line="23" column="12" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="projects.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="143" selection-start="417" selection-end="417" vertical-scroll-proportion="0.16917293" vertical-offset="0" max-vertical-offset="1064">
+            <state line="12" column="143" selection-start="417" selection-end="417" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="285">
               <folding />
             </state>
           </provider>
@@ -92,7 +92,16 @@
       <file leaf-file-name="extra.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/extra.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="16" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.0" vertical-offset="334" max-vertical-offset="1140">
+            <state line="76" column="17" selection-start="1485" selection-end="1497" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="1245">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="8" selection-start="131" selection-end="131" vertical-scroll-proportion="0.070290536" vertical-offset="0" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
@@ -134,10 +143,11 @@
       <list>
         <option value="$PROJECT_DIR$/_posts/2014-05-11-welcome-to-jekyll.markdown" />
         <option value="$PROJECT_DIR$/_posts/2014-05-12-vagrant-share.markdown" />
-        <option value="$PROJECT_DIR$/css/extra.css" />
         <option value="$PROJECT_DIR$/_posts/2014-05-15-symfony2-doctrine2-optimization.markdown" />
         <option value="$PROJECT_DIR$/_posts/2014-06-15-tmux.markdown" />
         <option value="$PROJECT_DIR$/projects.md" />
+        <option value="$PROJECT_DIR$/css/extra.css" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
       </list>
     </option>
   </component>
@@ -363,7 +373,11 @@
       <created>1403004919049</created>
       <updated>1403004919049</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Projects updated.">
+      <created>1403089448346</created>
+      <updated>1403089448346</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -382,12 +396,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -413,12 +427,87 @@
     <MESSAGE value="Date fix." />
     <MESSAGE value="Link added." />
     <MESSAGE value="Typo fixes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Typo fixes." />
+    <MESSAGE value="Projects updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Projects updated." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-15-symfony2-doctrine2-optimization.markdown">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="20" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-06-15-tmux.markdown">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="12" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="143" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vagrant.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/me.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-12-vagrant-share.markdown">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="12" selection-start="1050" selection-end="1119" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/extra.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="16" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.0" vertical-offset="334" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="10" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-11-welcome-to-jekyll.markdown">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="3" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-05-15-symfony2-doctrine2-optimization.markdown">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -679,13 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/extra.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="16" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.0" vertical-offset="334" max-vertical-offset="1140">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-05-15-symfony2-doctrine2-optimization.markdown">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -711,7 +793,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="12" selection-start="742" selection-end="742" vertical-scroll-proportion="-12.777778" vertical-offset="0" max-vertical-offset="1050">
+        <state line="23" column="12" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1050">
           <folding />
         </state>
       </provider>
@@ -721,7 +803,21 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="143" selection-start="417" selection-end="417" vertical-scroll-proportion="0.16917293" vertical-offset="0" max-vertical-offset="1064">
+        <state line="12" column="143" selection-start="417" selection-end="417" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/extra.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="17" selection-start="1485" selection-end="1497" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="1245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="8" selection-start="131" selection-end="131" vertical-scroll-proportion="0.070290536" vertical-offset="0" max-vertical-offset="1470">
           <folding />
         </state>
       </provider>

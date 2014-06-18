@@ -69,3 +69,10 @@ body {
     margin: 0 auto;
     width: 800px;
 }
+
+@media screen and (max-width: 650px) {
+    .hidden-desktop { display: inherit !important; }
+    .visible-desktop { display: none !important; }
+    .visible-phone { display: inherit !important; }
+    .hidden-phone { display: none !important; }
+}
