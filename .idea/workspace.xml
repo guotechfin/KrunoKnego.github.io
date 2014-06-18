@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26fc84fc-7f3b-4c7e-8a58-07e539b1c05d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/extra.css" afterPath="$PROJECT_DIR$/css/extra.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -101,10 +100,8 @@
       <file leaf-file-name="footer.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="35" selection-start="525" selection-end="525" vertical-scroll-proportion="0.2108716" vertical-offset="0" max-vertical-offset="1605">
-              <folding>
-                <element signature="n#style#0;n#ins#0;n#div#1;n#footer#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="15" column="0" selection-start="490" selection-end="1070" vertical-scroll-proportion="0.2108716" vertical-offset="0" max-vertical-offset="1605">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -395,7 +392,11 @@
       <created>1403106516259</created>
       <updated>1403106516259</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Google adds updated for mobile">
+      <created>1403106812529</created>
+      <updated>1403106812529</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -447,7 +448,8 @@
     <MESSAGE value="Typo fixes." />
     <MESSAGE value="Projects updated." />
     <MESSAGE value="Google adds updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Google adds updated" />
+    <MESSAGE value="Google adds updated for mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Google adds updated for mobile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -836,10 +838,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="525" selection-end="525" vertical-scroll-proportion="0.2108716" vertical-offset="0" max-vertical-offset="1605">
-          <folding>
-            <element signature="n#style#0;n#ins#0;n#div#1;n#footer#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="15" column="0" selection-start="490" selection-end="1070" vertical-scroll-proportion="0.2108716" vertical-offset="0" max-vertical-offset="1605">
+          <folding />
         </state>
       </provider>
     </entry>
