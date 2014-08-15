@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26fc84fc-7f3b-4c7e-8a58-07e539b1c05d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/phpstorm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/phpstorm1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/phpstorm2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-08-14-phpstorm-and-symfony2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-08-14-phpstorm-and-symfony2.md" afterPath="$PROJECT_DIR$/_posts/2014-08-14-phpstorm-and-symfony2.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KrunoKnego.github.io.iws" />
@@ -84,7 +81,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="143" selection-start="2323" selection-end="2323" vertical-scroll-proportion="0.8785425" vertical-offset="294" max-vertical-offset="1110">
+            <state line="60" column="63" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.71659917" vertical-offset="369" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
@@ -431,7 +428,11 @@
       <created>1407965115916</created>
       <updated>1407965115916</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Symfony2 and PHPStorm blog post.">
+      <created>1408106419354</created>
+      <updated>1408106419354</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -444,7 +445,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1509299" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1509299" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -491,7 +492,8 @@
     <MESSAGE value="Composer stuck test." />
     <MESSAGE value="Composer stuck blog post." />
     <MESSAGE value="Composer stuck blog post updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Composer stuck blog post updated." />
+    <MESSAGE value="Symfony2 and PHPStorm blog post." />
+    <option name="LAST_COMMIT_MESSAGE" value="Symfony2 and PHPStorm blog post." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -851,7 +853,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="143" selection-start="2323" selection-end="2323" vertical-scroll-proportion="0.8785425" vertical-offset="294" max-vertical-offset="1110">
+        <state line="60" column="63" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.71659917" vertical-offset="369" max-vertical-offset="1110">
           <folding />
         </state>
       </provider>

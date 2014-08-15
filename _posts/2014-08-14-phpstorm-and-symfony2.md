@@ -25,7 +25,7 @@ To solve that problem you can use PHPStorm's plugin called <a href="http://plugi
 
 It reads the cache of your symfony2 application and suggests you services as you type them in.
 
-![symfony2,cache]({{ site.url }}/assets/phpstorm1.jpg){: .center-image}
+![symfony2,cache]({{ site.url }}/assets/phpstorm1.jpg)
 
 Apart from enabling you to access your services it enables you to create them relatively easy.
 
@@ -58,7 +58,7 @@ For example, if you were to create a service
 Afterwards you right click on your service and click create service. Notice how I declared classes in constructor
 that will enable symfony2 plugin to automatically detect services that are to be injected for you.
 
-![symfony2,create_service]({{ site.url }}/assets/phpstorm2.jpg){: .center-image}
+![symfony2,create_service]({{ site.url }}/assets/phpstorm2.jpg)
 
 This is only small part of what PHPStorm can do for you so if you're doing any kind of PHP development I
 suggest you check  <a href="http://confluence.jetbrains.com/display/PhpStorm/PhpStorm+Early+Access+Program" target="_blank">PHPStorm 8 EAP</a> ( Early Access Program )
