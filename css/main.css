@@ -404,3 +404,5 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
+pre { white-space: pre; overflow: auto; }
