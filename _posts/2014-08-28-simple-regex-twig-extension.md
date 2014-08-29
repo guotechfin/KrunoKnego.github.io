@@ -188,4 +188,4 @@ This is only small part of what can twig do for you and if you're using PHP and 
 a templating engine I would definitely recommend you to start using twig.
 
 Before you start writing your own extensions first check twigs filters and functions because
-oftentimes there is some hidden feature you might have missed.Tw
+oftentimes there is some hidden feature you might have missed.

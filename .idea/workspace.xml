@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26fc84fc-7f3b-4c7e-8a58-07e539b1c05d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-08-28-simple-regex-twig-extension.md" afterPath="$PROJECT_DIR$/_posts/2014-08-28-simple-regex-twig-extension.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KrunoKnego.github.io.iws" />
@@ -100,21 +100,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-08-28-simple-regex-twig-extension.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2014-08-28-simple-regex-twig-extension.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2014-08-28-simple-regex-twig-extension.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="389" max-vertical-offset="2955">
-              <caret line="77" column="74" selection-start-line="77" selection-start-column="74" selection-end-line="77" selection-end-column="74" />
+            <state vertical-scroll-proportion="0.3528646" vertical-offset="2174" max-vertical-offset="2955">
+              <caret line="163" column="8" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9231754" vertical-offset="5384" max-vertical-offset="6195">
-              <caret line="407" column="41" selection-start-line="407" selection-start-column="41" selection-end-line="407" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="5384" max-vertical-offset="6195">
+              <caret line="374" column="0" selection-start-line="374" selection-start-column="0" selection-end-line="374" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -154,15 +154,15 @@
         <option value="$PROJECT_DIR$/_posts/2014-08-14-phpstorm-and-symfony2.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/about.md" />
-        <option value="$PROJECT_DIR$/_posts/2014-08-28-simple-regex-twig-extension.md" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/_posts/2014-08-28-simple-regex-twig-extension.md" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="22" />
+    <option name="x" value="83" />
+    <option name="y" value="86" />
     <option name="width" value="1440" />
     <option name="height" value="874" />
   </component>
@@ -529,11 +529,17 @@
       <option name="project" value="LOCAL" />
       <updated>1409243720472</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="css updated.">
+      <created>1409244379575</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1409244379575</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="22" width="1440" height="874" extended-state="6" />
+    <frame x="83" y="86" width="1440" height="874" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -573,7 +579,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Vagrant image fix." />
     <MESSAGE value="Center images." />
     <MESSAGE value="Center images fix." />
     <MESSAGE value="Doctrine2 image added.&#10;" />
@@ -598,7 +603,8 @@
     <MESSAGE value=".gitignored updated" />
     <MESSAGE value="Updated about." />
     <MESSAGE value="Twig post." />
-    <option name="LAST_COMMIT_MESSAGE" value="Twig post." />
+    <MESSAGE value="css updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="css updated." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -954,18 +960,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-08-28-simple-regex-twig-extension.md">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="389" max-vertical-offset="2955">
-          <caret line="77" column="74" selection-start-line="77" selection-start-column="74" selection-end-line="77" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="5384" max-vertical-offset="6195">
+          <caret line="374" column="0" selection-start-line="374" selection-start-column="0" selection-end-line="374" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/_posts/2014-08-28-simple-regex-twig-extension.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9231754" vertical-offset="5384" max-vertical-offset="6195">
-          <caret line="407" column="41" selection-start-line="407" selection-start-column="41" selection-end-line="407" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.3528646" vertical-offset="2174" max-vertical-offset="2955">
+          <caret line="163" column="8" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
           <folding />
         </state>
       </provider>
