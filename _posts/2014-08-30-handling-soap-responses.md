@@ -102,7 +102,7 @@ We could have also used it like this
     var_dump($xml); die();
 {% endhighlight %}
 
-And if would have worked as well.SO
+And if would have worked as well.
 
 
 
