@@ -104,8 +104,4 @@ We could have also used it like this
 
 And if would have worked as well.
 
-
-
-
-
-
+If you have a better way to handle SOAP responses comment it down below.
