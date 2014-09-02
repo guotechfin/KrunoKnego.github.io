@@ -88,7 +88,7 @@ body {
 }
 
 /* This gets Facebook to fall into place */
-.social iframe {
+.social.fb-like {
     vertical-align: middle;
 }
 
