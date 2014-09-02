@@ -85,13 +85,12 @@ body {
 /* This gets Google to fall into place */
 .social {
     font-size: 1px;
-    height: 20px;
 }
 
 /* This gets Facebook to fall into place */
-.facebook div {
-    vertical-align: middle;
-}
+/*.facebook {*/
+    /*vertical-align: middle;*/
+/*}*/
 
 /* Set an optional width for your button wrappers */
 .social span {
