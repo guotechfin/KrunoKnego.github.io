@@ -21,13 +21,20 @@ layout: default
   </article>
 
     <!-- SOCIAL SHARING -->
-    <div class="right">
-        <div class="fb-share-button" data-href="{{ site.url }}{{ page.url }}"></div>
 
-        <a href="https://twitter.com/share" class="twitter-share-button" data-via="KKnego">Tweet</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <div class="social">
+        <span class="twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-via="KKnego">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </span>
+        <span class="google">
+            <script src="https://apis.google.com/js/plusone.js"></script>
+            <g:plus action="share"></g:plus>
+        </span>
+        <span class="Facebook">
+            <div class="fb-share-button" data-href="{{ site.url }}{{ page.url }}"></div>
+        </span>
     </div>
-
 
     <div id="disqus_thread"></div>
     <script type="text/javascript">
