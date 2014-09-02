@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="26fc84fc-7f3b-4c7e-8a58-07e539b1c05d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/extra.css" afterPath="$PROJECT_DIR$/css/extra.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KrunoKnego.github.io.iws" />
@@ -95,8 +94,8 @@
       <file leaf-file-name="extra.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/extra.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65428936" vertical-offset="839" max-vertical-offset="1635">
-              <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.5966709" vertical-offset="839" max-vertical-offset="1650">
+              <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -617,7 +616,13 @@
       <option name="project" value="LOCAL" />
       <updated>1409639288729</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Twitter social share">
+      <created>1409639455134</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1409639455134</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1049,8 +1054,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/extra.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65428936" vertical-offset="839" max-vertical-offset="1635">
-          <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.5966709" vertical-offset="839" max-vertical-offset="1650">
+          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
           <folding />
         </state>
       </provider>
