@@ -44,4 +44,4 @@ that an unauthorized user is attempting to access a script
 Taken from <a href="http://www.liquidweb.com/kb/apache-error-premature-end-of-script-headers/" target="_blank">http://www.liquidweb.com/kb/apache-error-premature-end-of-script-headers/</a>
 
 In my case the problem was regarding permissions.
-After I've set 755 permissions to my home directory everything worked flawlessly.
+After I've set correct permissions to my directory everything worked flawlessly.
