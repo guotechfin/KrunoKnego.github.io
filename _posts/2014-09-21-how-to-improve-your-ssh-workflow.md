@@ -72,7 +72,7 @@ myServer but that can be anything you want. HostName can be written as yourserve
 put whole IP address of the server.
 IdentifyFile part is used for defining where your generated key is located.
 
-There also other configuration options. For example if your server's secure port isn't default 22 but some else
+There are also other configuration options. For example if your server's secure port isn't default 22 but some else
  you can just add "Port XXXX" to your config file.
 
 After you've made all the changes now you can simply write:
