@@ -82,7 +82,7 @@ After you've made all the changes now you can simply write:
 
 And you should be logged in.
 
-So there you have it. This configuration might take you a while to complete the first but the
+So there you have it. This configuration might take you a while to complete the first time but the
 benefits it adds are enormous. No more searching where is password for serverA or
 username for serverB and so on.
 
