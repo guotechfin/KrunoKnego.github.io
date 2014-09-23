@@ -112,20 +112,20 @@ hr {
 
 /* unvisited link */
 a:link {
-    color: #ff5c29;
+    color: #000000;
 }
 
 /* visited link */
 a:visited {
-    color: #ff5c29;
+    color: #000000;
 }
 
 /* mouse over link */
 a:hover {
-    color: #ff5c29;
+    color: #000000;
 }
 
 /* selected link */
 a:active {
-    color: #ff5c29;
+    color: #000000;
 }
