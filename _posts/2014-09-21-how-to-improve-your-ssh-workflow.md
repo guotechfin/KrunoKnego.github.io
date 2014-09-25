@@ -22,12 +22,12 @@ If you don't have them set up or you're not sure just write the following comman
 It will automatically generate private and public keys for you. The next step is to use command
 ssh-copy-id.
 
-If you find yourself using mac machine you have to first install ssh-copy-id or
+If you find yourself using mac machine you have to first install <code>ssh-copy-id</code> or
 you will get "Command not found" error.
 
 {% highlight bash  %}
-    sudo curl https://raw.githubusercontent.com/beautifulcode/ssh-copy-id-for-OSX/master/ssh-copy-id.sh -o /usr/local/bin/ssh-copy-id
-    sudo chmod +x /usr/local/bin/ssh-copy-id
+sudo curl https://raw.githubusercontent.com/beautifulcode/ssh-copy-id-for-OSX/master/ssh-copy-id.sh -o /usr/local/bin/ssh-copy-id
+sudo chmod +x /usr/local/bin/ssh-copy-id
 {% endhighlight %}
 
 Or you could use brew and install it like this:
@@ -36,7 +36,7 @@ Or you could use brew and install it like this:
     sudo brew install ssh-copy-id
 {% endhighlight %}
 
-The usage of ssh-copy-id goes like this:
+The usage of <code>ssh-copy-id</code> goes like this:
 
 {% highlight bash  %}
     ssh-copy-id username@remote-server.com
@@ -51,7 +51,7 @@ username or port or even domain name so let's dumb it down a little bit more.
 First step is to position yourself to .ssh directory
 
 {% highlight bash  %}
-    cd ~/.ssh
+cd ~/.ssh
 {% endhighlight %}
 
 If you were to type in the "ls" command you'd see that directory is populated with generated private and
@@ -61,10 +61,10 @@ most comfortable with.
 
 Fill the config file with following lines:
 {% highlight bash  %}
-    Host myServer
-    HostName yourserver.com
-    User yourusername
-    IdentityFile ~/.ssh/id_rsa
+Host myServer
+HostName yourserver.com
+User yourusername
+IdentityFile ~/.ssh/id_rsa
 {% endhighlight %}
 
 I propose you fill out the first line with some easy to remember name. In this example I've named it
@@ -77,7 +77,7 @@ There are also other configuration options. For example if your server's secure 
 
 After you've made all the changes now you can simply write:
 {% highlight bash  %}
-    ssh myServer
+ssh myServer
 {% endhighlight %}
 
 And you should be logged in.
