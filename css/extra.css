@@ -137,7 +137,7 @@ a:active {
     font-weight: 300 !important;
 }
 
-.posts .post-link {
+a.post-link {
     font-size: 35px !important;
     letter-spacing: -1.75px !important;
     line-height: 1 !important;
