@@ -112,20 +112,35 @@ hr {
 
 /* unvisited link */
 a:link {
-    color: #000000;
+    color: #505050;
 }
 
 /* visited link */
 a:visited {
-    color: #000000;
+    color: #505050;
 }
 
 /* mouse over link */
 a:hover {
-    color: #000000;
+    color: #505050;
 }
 
 /* selected link */
 a:active {
-    color: #000000;
+    color: #505050;
+}
+
+.post-header h2 {
+    font-size: 35px !important;
+    letter-spacing: -1.75px !important;
+    line-height: 1 !important;
+    font-weight: 300 !important;
+}
+
+.posts .post-link {
+    font-size: 35px !important;
+    letter-spacing: -1.75px !important;
+    line-height: 1 !important;
+    font-weight: 300 !important;
+    color: #505050;
 }
