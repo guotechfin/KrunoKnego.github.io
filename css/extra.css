@@ -112,22 +112,22 @@ hr {
 
 /* unvisited link */
 a:link {
-    color: #505050 !important;
+    color: #AAAAAA !important;
 }
 
 /* visited link */
 a:visited {
-    color: #505050 !important;
+    color: #AAAAAA !important;
 }
 
 /* mouse over link */
 a:hover {
-    color: #505050 !important;
+    color: #AAAAAA !important;
 }
 
 /* selected link */
 a:active {
-    color: #505050 !important;
+    color: #AAAAAA !important;
 }
 
 .post-header h2 {
@@ -142,5 +142,5 @@ a.post-link {
     letter-spacing: -1.75px !important;
     line-height: 1 !important;
     font-weight: 300 !important;
-    color: #505050;
+    color: #AAAAAA;
 }
