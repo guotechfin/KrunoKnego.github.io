@@ -147,11 +147,11 @@ a.post-link {
 
 .post pre,
 .post code {
-    border: 1px solid #B4B4B4 !important;
+    border: 0!important;
     background-color: #f5f7f8 !important;
     padding: 8px 12px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
+    /*-webkit-border-radius: 3px;*/
+    /*-moz-border-radius: 3px;*/
     border-radius: 3px;
     font-size: 15px;
 }
