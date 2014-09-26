@@ -139,9 +139,9 @@ a:active {
 
 a.post-link {
     font-size: 22px !important;
-    letter-spacing: -1.75px !important;
+    letter-spacing: 0.25px !important;
     line-height: 1 !important;
-    font-weight: 300 !important;
+    font-weight: 200 !important;
     color: #777777;
 }
 
