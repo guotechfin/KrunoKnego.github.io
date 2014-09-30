@@ -203,7 +203,7 @@ Give it few minutes to complete and now you have to do one more final step.
 <code>ssh</code> to your server and symlink current/web to your public_html.
 If you already have public_html folder you have to first remove it.
 
-<code>rm -rf public_html</code>
+<code>rm -rf public_html</code> <br/>
 <code>ln -s current/web public_html</code>
 
 You will have to do this last part of configuration only the first time.
@@ -218,9 +218,9 @@ Capifony has lots of additional features to list them all write:
 I personally find very useful <code>cap deploy rollback</code> option.
 
 Let's say you deploy your application but there's some bug in code so while you're fixing it you can
-just write <code>cap deploy rollback</code> to rever to the previous release.
+just write <code>cap deploy rollback</code> to revert to the previous release.
 
 <h2>Conclusion</h2>
 
-I believe I've demonstrated through this short tutorial just how easy it is to deploy your symfony2 applications.
+I believe I've demonstrated through this short tutorial just how easy it is to deploy your symfony2 applications using capifony.
 Sure you might have some trouble configuring all this the first time but in the long run it will pay off.
