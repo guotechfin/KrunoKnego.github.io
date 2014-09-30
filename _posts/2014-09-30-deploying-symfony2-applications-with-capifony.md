@@ -1,10 +1,10 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Test</title>
-</head>
-<body>
+---
+layout: post
+title: "Deploying Symfony2 applications with Capifony"
+category: 
+date: " 2014-09-30 10:55:16"
+tags: []
+---
 
 <h2>Introduction</h2>
 
@@ -34,6 +34,3 @@ Now we have to initialize capifony.
 
 
 <h2>Conclusion</h2>
-
-</body>
-</html>
