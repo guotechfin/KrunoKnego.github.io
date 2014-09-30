@@ -18,11 +18,11 @@ In order to install capifony you have to use RubyGems. RubyGems is a package man
 
 <code>gem install capifony</code>
 
-On OSX you might need <code>sudo</code>.
+On OSX you might need to use <code>sudo</code>.
 
 <code>sudo gem install capifony</code>
 
-<h2>Deployment</h2>
+<h2>Pre-deployment</h2>
 
 Go to folder of your Symfony2 application
 
@@ -32,5 +32,41 @@ Now we have to initialize capifony.
 
 <code>capifony .</code>
 
+<img src="{{ site.url }}/assets/capifony.jpg" alt="Capifony initialized"/>
 
+This will create two files Capfile and deploy.rb. The Capfile is a capifony configuration file and deploy.rb is a file where
+you write your server information.
+
+You can ignore Capfile but we have to modify the deploy.rb file.
+It can be found in <code>app/config/deploy.rb</code>.
+Now if you were to open that file its contents should look something like this.
+
+{% highlight ruby %}
+set :application, "set your application name here"
+set :domain,      "#{application}.com"
+set :deploy_to,   "/var/www/#{domain}"
+set :app_path,    "app"
+
+set :repository,  "#{domain}:/var/repos/#{application}.git"
+set :scm,         :git
+# Or: `accurev`, `bzr`, `cvs`, `darcs`, `subversion`, `mercurial`, `perforce`, or `none`
+
+set :model_manager, "doctrine"
+# Or: `propel`
+
+role :web,        domain                         # Your HTTP server, Apache/etc
+role :app,        domain, :primary => true       # This may be the same as your `Web` server
+
+set  :keep_releases,  3
+
+# Be more verbose by uncommenting the following line
+# logger.level = Logger::MAX_LEVEL
+{% endhighlight %}
+
+<h2>Deployment</h2>
+
+
+
+
+<h2>Conclusion</h2>
 <h2>Conclusion</h2>
