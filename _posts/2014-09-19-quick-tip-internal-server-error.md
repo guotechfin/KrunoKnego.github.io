@@ -24,6 +24,7 @@ Now if you were to google solution for that problem you would most likely come u
 
 <i>
 This error occurs because the server is expecting a complete set of HTTP headers (one or more followed by a blank line), and it doesn’t get them. This can be caused by several things:
+
 1. Upgrading or downgrading to a different version of PHP can leave residual options in the httpd.conf.
 Check the current version of PHP using php -v on the command line and search for any lines mentioning another version in the httpd.conf. If you find them, comment them out, distill the httpd.conf and restart apache.
 
