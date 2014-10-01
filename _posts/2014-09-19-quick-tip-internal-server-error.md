@@ -25,26 +25,26 @@ Now if you were to google solution for that problem you would most likely come u
 <i>
 This error occurs because the server is expecting a complete set of HTTP headers (one or more followed by a blank line), and it doesn’t get them. This can be caused by several things:
 
-<i>
-1. Upgrading or downgrading to a different version of PHP can leave residual options in the httpd.conf.
+
+<i>1. Upgrading or downgrading to a different version of PHP can leave residual options in the httpd.conf.
 Check the current version of PHP using php -v on the command line and search for any lines mentioning another version in the httpd.conf. If you find them, comment them out, distill the httpd.conf and restart apache.
 
-<i>
-2. The RLimitCPU and RLimitMEM directives in the httpd.conf may also be responsible for the error if a script
+
+<i>2. The RLimitCPU and RLimitMEM directives in the httpd.conf may also be responsible for the error if a script
 was killed due to a resource limit.
 
-<i>
-3. A configuration problem in suEXEC, mod_perl, or another third party module can often interfere with
+
+<i>3. A configuration problem in suEXEC, mod_perl, or another third party module can often interfere with
 the execution of scripts and cause the error. If these are the cause, additional information
 relating to specifics will be found in the apache error_log.
 
-<i>
-4. If suphp’s log reaches 2GB in size or larger you may see the premature end of scripts
+
+<i>4. If suphp’s log reaches 2GB in size or larger you may see the premature end of scripts
 headers error. See what the log contains and either gzip it or null it. Restart apache and then deal
 with any issues that the suphp log brought to light. The suphp log is located at: /usr/local/apache/logs/suphp_log
 
-<i>
-5. The script’s permissions may also cause this error. CGI scripts can only access resources allowed for
+
+<i>5. The script’s permissions may also cause this error. CGI scripts can only access resources allowed for
 the User and Group specified in the httpd.conf. In this case, the error may simply be pointing out
 that an unauthorized user is attempting to access a script
 
