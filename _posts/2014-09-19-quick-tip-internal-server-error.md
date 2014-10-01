@@ -22,6 +22,7 @@ interesting (You can find Apache error log at /usr/local/apache/logs/error_log).
 
 Now if you were to google solution for that problem you would most likely come up with
 
+<i>
 This error occurs because the server is expecting a complete set of HTTP headers (one or more followed by a blank line), and it doesn’t get them. This can be caused by several things:
 1. Upgrading or downgrading to a different version of PHP can leave residual options in the httpd.conf.
 Check the current version of PHP using php -v on the command line and search for any lines mentioning another version in the httpd.conf. If you find them, comment them out, distill the httpd.conf and restart apache.
@@ -40,7 +41,7 @@ with any issues that the suphp log brought to light. The suphp log is located at
 5. The script’s permissions may also cause this error. CGI scripts can only access resources allowed for
 the User and Group specified in the httpd.conf. In this case, the error may simply be pointing out
 that an unauthorized user is attempting to access a script
-
+</i>
 Taken from <a href="http://www.liquidweb.com/kb/apache-error-premature-end-of-script-headers/" target="_blank">http://www.liquidweb.com/kb/apache-error-premature-end-of-script-headers/</a>
 
 In my case the problem was regarding permissions.
