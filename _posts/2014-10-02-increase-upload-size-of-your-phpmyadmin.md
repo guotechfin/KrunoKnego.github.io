@@ -35,4 +35,5 @@ My extra.ini file was located at <code>/etc/php5/apache2/conf.d/extra.ini</code>
 you might give it try searching with <code>find</code> command like this:
 
 <code>cd /</code>
+<br>
 <code>sudo find -name extra.ini</code>
