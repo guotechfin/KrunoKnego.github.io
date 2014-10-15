@@ -30,6 +30,10 @@ Also if your server is using a specific port you can specify it with "P" flag.
 
 <code>scp -P your_port_number ... </code>
 
+If you're trying to copy/paste a folder don't forget to include "r" flag.
+
+<code>scp -r some_folder ... </code>
+
 
 
 
