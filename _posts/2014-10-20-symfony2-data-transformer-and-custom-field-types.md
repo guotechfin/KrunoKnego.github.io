@@ -21,6 +21,8 @@ I've injected the repository and in the custom field type I injected name of cus
 Below you can see an example of that implementation.
 
 
+This is data transform which was injected with repository and object manager.
+
 {% highlight php5 %}
 <?php
 
@@ -82,6 +84,9 @@ class RelatedTransformer implements DataTransformerInterface
 {% endhighlight %}
 
 
+Here you can see a custom filed type. In addition to object manager and repository I had to inject
+name of custom field type.
+
 {% highlight php5 %}
 <?php
 
@@ -136,6 +141,10 @@ class RelatedSelectorType extends AbstractType
 }
 
 {% endhighlight %}
+
+
+This is my services.xml file. I prefer using xml for definining my services because when I've used
+yml format too often I had problem with wrong indentation.
 
 {% highlight php5 %}
 <?xml version="1.0" ?>
@@ -272,6 +281,9 @@ class RelatedSelectorType extends AbstractType
 
 
 {% endhighlight %}
+
+
+Finally after all that configuration you can use your custom field types.
 
 {% highlight php5 %}
 <?php
