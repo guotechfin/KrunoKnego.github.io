@@ -5,5 +5,5 @@ permalink: /reading/
 ---
 
 <ul>
-    <li>PHP Objects, Patterns, and Practice by Matt Zandstra (Fourth edition)</li>
+    <li><a href="http://www.amazon.com/Objects-Patterns-Practice-Matt-Zandstra/dp/1430260319/ref=sr_1_1?s=books&ie=UTF8&qid=1414145406&sr=1-1">PHP Objects, Patterns, and Practice by Matt Zandstra (Fourth edition)</a></li>
 </ul>
