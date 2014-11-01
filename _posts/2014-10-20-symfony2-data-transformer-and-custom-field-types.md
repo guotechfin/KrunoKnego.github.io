@@ -344,7 +344,145 @@ class PostType extends AbstractType
 {% endhighlight %}
 
 <b>EDIT 01.11.2014</b>
-asdasdasd
+
+{% highlight php5 %}
+<?php
+
+namespace AcmeBunde\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
+
+class Select2Controller extends Controller
+{
+    public function relatedPostAction(Request $request)
+    {
+        if ($request->isXmlHttpRequest()) {
+
+            // retrieve query and page_limit
+            $q = $request->query->get('term');
+            $p = $request->query->get('page_limit');
+
+            $posts = $this
+                ->get('acme_blog.repository.post')
+                ->createQueryBuilder('p')
+                ->select('p.id, p.title AS term')
+                ->where('p.title LIKE :q')
+                ->setParameter('q', '%'.$q.'%')
+                ->setMaxResults($p)
+                ->getQuery()
+                ->getResult()
+            ;
+
+            $arr = array('results' => array('posts' => $posts));
+
+            $response = new JsonResponse($arr);
+            $response->setCallback($request->query->get('callback'));
+
+            return $response;
+        }
+
+        throw new BadRequestHttpException('Only XHR supported');
+    }
+
+    public function relatedPeopleAction($sport, Request $request)
+    {
+        if ($request->isXmlHttpRequest()) {
+
+            // retrieve query and page_limit
+            $q = $request->query->get('term');
+            $p = $request->query->get('page_limit');
+
+            $posts = $this
+                ->get('acme_'.$sport.'.repository.people')
+                ->createQueryBuilder('p')
+                ->select('p.id, p.name AS term')
+                ->where('p.name LIKE :q')
+                ->setParameter('q', '%'.$q.'%')
+                ->setMaxResults($p)
+                ->getQuery()
+                ->getResult()
+            ;
+
+            $arr = array('results' => array('posts' => $posts));
+
+            $response = new JsonResponse($arr);
+            $response->setCallback($request->query->get('callback'));
+
+            return $response;
+        }
+
+        throw new BadRequestHttpException('Only XHR supported');
+    }
+
+    public function relatedTeamsAction($sport, Request $request)
+    {
+        if ($request->isXmlHttpRequest()) {
+
+            // retrieve query and page_limit
+            $q = $request->query->get('term');
+            $p = $request->query->get('page_limit');
+
+            $posts = $this
+                ->get('acme_'.$sport.'.repository.team')
+                ->createQueryBuilder('p')
+                ->select('p.id, p.clubName AS term')
+                ->where('p.clubName LIKE :q')
+                ->setParameter('q', '%'.$q.'%')
+                ->setMaxResults($p)
+                ->getQuery()
+                ->getResult()
+            ;
+
+            $arr = array('results' => array('posts' => $posts));
+
+            $response = new JsonResponse($arr);
+            $response->setCallback($request->query->get('callback'));
+
+            return $response;
+        }
+
+        throw new BadRequestHttpException('Only XHR supported');
+    }
+
+    public function relatedSeasonsAction($sport, Request $request)
+    {
+        if ($request->isXmlHttpRequest()) {
+
+            // retrieve query and page_limit
+            $q = $request->query->get('term');
+            $p = $request->query->get('page_limit');
+
+            $posts = $this
+                ->get('acme_'.$sport.'.repository.season')
+                ->createQueryBuilder('p')
+                ->select('p.id, p.name AS term')
+                ->where('p.name LIKE :q')
+                ->setParameter('q', '%'.$q.'%')
+                ->setMaxResults($p)
+                ->getQuery()
+                ->getResult()
+            ;
+
+            $arr = array('results' => array('posts' => $posts));
+
+            $response = new JsonResponse($arr);
+            $response->setCallback($request->query->get('callback'));
+
+            return $response;
+        }
+
+        throw new BadRequestHttpException('Only XHR supported');
+    }
+}
+{% endhighlight %}
+
+
+
+In twig no you just need to render the forms.
 
 
 
