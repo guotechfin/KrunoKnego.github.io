@@ -18,3 +18,5 @@ permalink: pretty
 
 paginate: 20
 
+exclude: [vendor]
+
