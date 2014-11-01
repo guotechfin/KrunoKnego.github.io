@@ -480,7 +480,7 @@ class Select2Controller extends Controller
 }
 {% endhighlight %}
 
-
+{% verbatim %}
 <script type="text/javascript">
 $(document).ready(function() {
     function select2Helper(element, path) {
@@ -533,6 +533,6 @@ $(document).ready(function() {
 
 });
 </script>
-
+{% endverbatim %}
 
 
