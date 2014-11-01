@@ -18,5 +18,13 @@ permalink: pretty
 
 paginate: 20
 
-exclude: [vendor]
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
 
