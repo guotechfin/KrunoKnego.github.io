@@ -481,7 +481,6 @@ class Select2Controller extends Controller
 {% endhighlight %}
 
 
-{% highlight php5 %}
 <script type="text/javascript">
 $(document).ready(function() {
     function select2Helper(element, path) {
@@ -534,7 +533,6 @@ $(document).ready(function() {
 
 });
 </script>
-{% endhighlight %}
 
 
 
