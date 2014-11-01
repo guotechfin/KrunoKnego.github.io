@@ -480,6 +480,7 @@ class Select2Controller extends Controller
 }
 {% endhighlight %}
 
+{% highlight javascript %}
 {% raw %}
 $(document).ready(function() {
     function select2Helper(element, path) {
@@ -532,4 +533,4 @@ select2Helper($("#acme_blog_post_relatedBasketballSeasons"), "{{ url('acme_relat
 select2Helper($("#acme_blog_post_relatedHandballSeasons"), "{{ url('acme_related_seasons_select2', {'sport':'handball'}) }}");
 select2Helper($("#acme_blog_post_relatedHockeySeasons"), "{{ url('acme_related_seasons_select2', {'sport':'hockey'}) }}");
 {% endraw %}
-
+{% endhighlight %}
