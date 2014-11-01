@@ -342,3 +342,198 @@ class PostType extends AbstractType
 }
 
 {% endhighlight %}
+
+<b>EDIT 01.11.2014</b>
+
+{% highlight php5 %}
+<?php
+
+namespace AcmeBunde\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
+
+class Select2Controller extends Controller
+{
+    public function relatedPostAction(Request $request)
+    {
+        if ($request->isXmlHttpRequest()) {
+
+            // retrieve query and page_limit
+            $q = $request->query->get('term');
+            $p = $request->query->get('page_limit');
+
+            $posts = $this
+                ->get('acme_blog.repository.post')
+                ->createQueryBuilder('p')
+                ->select('p.id, p.title AS term')
+                ->where('p.title LIKE :q')
+                ->setParameter('q', '%'.$q.'%')
+                ->setMaxResults($p)
+                ->getQuery()
+                ->getResult()
+            ;
+
+            $arr = array('results' => array('posts' => $posts));
+
+            $response = new JsonResponse($arr);
+            $response->setCallback($request->query->get('callback'));
+
+            return $response;
+        }
+
+        throw new BadRequestHttpException('Only XHR supported');
+    }
+
+    public function relatedPeopleAction($sport, Request $request)
+    {
+        if ($request->isXmlHttpRequest()) {
+
+            // retrieve query and page_limit
+            $q = $request->query->get('term');
+            $p = $request->query->get('page_limit');
+
+            $posts = $this
+                ->get('acme_'.$sport.'.repository.people')
+                ->createQueryBuilder('p')
+                ->select('p.id, p.name AS term')
+                ->where('p.name LIKE :q')
+                ->setParameter('q', '%'.$q.'%')
+                ->setMaxResults($p)
+                ->getQuery()
+                ->getResult()
+            ;
+
+            $arr = array('results' => array('posts' => $posts));
+
+            $response = new JsonResponse($arr);
+            $response->setCallback($request->query->get('callback'));
+
+            return $response;
+        }
+
+        throw new BadRequestHttpException('Only XHR supported');
+    }
+
+    public function relatedTeamsAction($sport, Request $request)
+    {
+        if ($request->isXmlHttpRequest()) {
+
+            // retrieve query and page_limit
+            $q = $request->query->get('term');
+            $p = $request->query->get('page_limit');
+
+            $posts = $this
+                ->get('acme_'.$sport.'.repository.team')
+                ->createQueryBuilder('p')
+                ->select('p.id, p.clubName AS term')
+                ->where('p.clubName LIKE :q')
+                ->setParameter('q', '%'.$q.'%')
+                ->setMaxResults($p)
+                ->getQuery()
+                ->getResult()
+            ;
+
+            $arr = array('results' => array('posts' => $posts));
+
+            $response = new JsonResponse($arr);
+            $response->setCallback($request->query->get('callback'));
+
+            return $response;
+        }
+
+        throw new BadRequestHttpException('Only XHR supported');
+    }
+
+    public function relatedSeasonsAction($sport, Request $request)
+    {
+        if ($request->isXmlHttpRequest()) {
+
+            // retrieve query and page_limit
+            $q = $request->query->get('term');
+            $p = $request->query->get('page_limit');
+
+            $posts = $this
+                ->get('acme_'.$sport.'.repository.season')
+                ->createQueryBuilder('p')
+                ->select('p.id, p.name AS term')
+                ->where('p.name LIKE :q')
+                ->setParameter('q', '%'.$q.'%')
+                ->setMaxResults($p)
+                ->getQuery()
+                ->getResult()
+            ;
+
+            $arr = array('results' => array('posts' => $posts));
+
+            $response = new JsonResponse($arr);
+            $response->setCallback($request->query->get('callback'));
+
+            return $response;
+        }
+
+        throw new BadRequestHttpException('Only XHR supported');
+    }
+}
+{% endhighlight %}
+
+{% highlight javascript %}
+$(document).ready(function() {
+    function select2Helper(element, path) {
+        element.select2({
+            placeholder: "Search ",
+            multiple: true,
+            minimumInputLength: 1,
+            ajax: {
+                url: path,
+                dataType: 'jsonp',
+                data: function (term, page) {
+                    return {
+                        term: term, // search term
+                        page_limit: 10
+                    };
+                },
+                results: function (data) {
+                    return {results: data.results.posts};
+                }
+            },
+            formatResult: function(posts) {
+                return "<div class='select2-user-result'>" + posts.term + "</div>";
+            },
+            formatSelection: function(posts) {
+                return posts.term;
+            },
+            initSelection : function (element, callback) {
+                var elementText = $(element).attr('data-init-text');
+                callback({"term": elementText});
+            }
+        });
+    }
+
+    select2Helper($("#acme_blog_post_relatedPosts"), "{{ url('acme_related_posts_select2') }}");
+
+    select2Helper($("#acme_blog_post_relatedSoccerPeople"), "{{ url('acme_related_people_select2', {'sport':'soccer'}) }}");
+    select2Helper($("#acme_blog_post_relatedBasketballPeople"), "{{ url('acme_related_people_select2', {'sport':'basketball'}) }}");
+    select2Helper($("#acme_blog_post_relatedHandballPeople"), "{{ url('acme_related_people_select2', {'sport':'handball'}) }}");
+    select2Helper($("#acme_blog_post_relatedHockeyPeople"), "{{ url('acme_related_people_select2', {'sport':'hockey'}) }}");
+
+    select2Helper($("#acme_blog_post_relatedSoccerTeams"), "{{ url('acme_related_teams_select2', {'sport':'soccer'}) }}");
+    select2Helper($("#acme_blog_post_relatedBasketballTeams"), "{{ url('acme_related_teams_select2', {'sport':'basketball'}) }}");
+    select2Helper($("#acme_blog_post_relatedHandballTeams"), "{{ url('acme_related_teams_select2', {'sport':'handball'}) }}");
+    select2Helper($("#acme_blog_post_relatedHockeyTeams"), "{{ url('acme_related_teams_select2', {'sport':'hockey'}) }}");
+
+    select2Helper($("#acme_blog_post_relatedSoccerSeasons"), "{{ url('acme_related_seasons_select2', {'sport':'soccer'}) }}");
+    select2Helper($("#acme_blog_post_relatedBasketballSeasons"), "{{ url('acme_related_seasons_select2', {'sport':'basketball'}) }}");
+    select2Helper($("#acme_blog_post_relatedHandballSeasons"), "{{ url('acme_related_seasons_select2', {'sport':'handball'}) }}");
+    select2Helper($("#acme_blog_post_relatedHockeySeasons"), "{{ url('acme_related_seasons_select2', {'sport':'hockey'}) }}");
+
+});
+{% endhighlight %}
+
+In twig no you just need to render the forms.
+
+
+
