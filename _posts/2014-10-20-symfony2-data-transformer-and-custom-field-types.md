@@ -480,7 +480,6 @@ class Select2Controller extends Controller
 }
 {% endhighlight %}
 
-<script type="text/javascript">
 $(document).ready(function() {
     function select2Helper(element, path) {
         element.select2({
@@ -514,6 +513,5 @@ $(document).ready(function() {
     }
 
 });
-</script>
 
 
