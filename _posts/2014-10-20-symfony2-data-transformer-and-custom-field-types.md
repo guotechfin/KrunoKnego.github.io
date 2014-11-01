@@ -6,6 +6,7 @@ date: " 2014-10-20 09:05:23"
 tags: []
 ---
 
+test
 I was working on a project that dealt with sport analytics and Symfony2 forms were very slow
 because I had too much many-to-many and one-to-many entities loaded. Those kinds of problems are easily
 fixed using data transformers. You can read more about them <a href="http://symfony.com/doc/current/cookbook/form/data_transformers.html">here</a>.
