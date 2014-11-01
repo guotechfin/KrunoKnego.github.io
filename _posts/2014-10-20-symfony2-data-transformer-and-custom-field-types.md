@@ -481,7 +481,7 @@ class Select2Controller extends Controller
 {% endhighlight %}
 
 
-{% highlight html5 %}
+{% highlight php5 %}
 $(document).ready(function() {
     function select2Helper(element, path) {
         element.select2({
