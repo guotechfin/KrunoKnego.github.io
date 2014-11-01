@@ -481,4 +481,58 @@ class Select2Controller extends Controller
 {% endhighlight %}
 
 
+{% highlight html %}
+$(document).ready(function() {
+    function select2Helper(element, path) {
+        element.select2({
+            placeholder: "Search ",
+            multiple: true,
+            minimumInputLength: 1,
+            ajax: {
+                url: path,
+                dataType: 'jsonp',
+                data: function (term, page) {
+                    return {
+                        term: term, // search term
+                        page_limit: 10
+                    };
+                },
+                results: function (data) {
+                    return {results: data.results.posts};
+                }
+            },
+            formatResult: function(posts) {
+                return "<div class='select2-user-result'>" + posts.term + "</div>";
+            },
+            formatSelection: function(posts) {
+                return posts.term;
+            },
+            initSelection : function (element, callback) {
+                var elementText = $(element).attr('data-init-text');
+                callback({"term": elementText});
+            }
+        });
+    }
+
+    select2Helper($("#acme_blog_post_relatedPosts"), "{{ url('acme_related_posts_select2') }}");
+
+    select2Helper($("#acme_blog_post_relatedSoccerPeople"), "{{ url('acme_related_people_select2', {'sport':'soccer'}) }}");
+    select2Helper($("#acme_blog_post_relatedBasketballPeople"), "{{ url('acme_related_people_select2', {'sport':'basketball'}) }}");
+    select2Helper($("#acme_blog_post_relatedHandballPeople"), "{{ url('acme_related_people_select2', {'sport':'handball'}) }}");
+    select2Helper($("#acme_blog_post_relatedHockeyPeople"), "{{ url('acme_related_people_select2', {'sport':'hockey'}) }}");
+
+    select2Helper($("#acme_blog_post_relatedSoccerTeams"), "{{ url('acme_related_teams_select2', {'sport':'soccer'}) }}");
+    select2Helper($("#acme_blog_post_relatedBasketballTeams"), "{{ url('acme_related_teams_select2', {'sport':'basketball'}) }}");
+    select2Helper($("#acme_blog_post_relatedHandballTeams"), "{{ url('acme_related_teams_select2', {'sport':'handball'}) }}");
+    select2Helper($("#acme_blog_post_relatedHockeyTeams"), "{{ url('acme_related_teams_select2', {'sport':'hockey'}) }}");
+
+    select2Helper($("#acme_blog_post_relatedSoccerSeasons"), "{{ url('acme_related_seasons_select2', {'sport':'soccer'}) }}");
+    select2Helper($("#acme_blog_post_relatedBasketballSeasons"), "{{ url('acme_related_seasons_select2', {'sport':'basketball'}) }}");
+    select2Helper($("#acme_blog_post_relatedHandballSeasons"), "{{ url('acme_related_seasons_select2', {'sport':'handball'}) }}");
+    select2Helper($("#acme_blog_post_relatedHockeySeasons"), "{{ url('acme_related_seasons_select2', {'sport':'hockey'}) }}");
+
+});
+{% endhighlight %}
+
+
 
