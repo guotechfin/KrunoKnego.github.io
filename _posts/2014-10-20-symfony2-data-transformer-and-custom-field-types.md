@@ -534,3 +534,5 @@ select2Helper($("#acme_blog_post_relatedHandballSeasons"), "{{ url('acme_related
 select2Helper($("#acme_blog_post_relatedHockeySeasons"), "{{ url('acme_related_seasons_select2', {'sport':'hockey'}) }}");
 {% endraw %}
 {% endhighlight %}
+
+Now you just have to render your forms.
