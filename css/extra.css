@@ -155,3 +155,10 @@ a.post-link {
     border-radius: 3px;
     font-size: 15px;
 }
+
+.lang {
+    color: rgb(247, 247, 247);
+    background: rgb(173, 173, 173);
+    font-size: small;
+    font-weight: bold;
+}
