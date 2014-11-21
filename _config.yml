@@ -7,7 +7,7 @@ url: "http://krunoknego.com"
 gitusername: KrunoKnego
 twitterusername: KKnego
 username: Kruno Knego
-info: "Passionate software engineer. My favorite quote is: \"Someone once told me the definition of Hell: The last day you have on earth, the person you became will meet the person you could have become.\" - Anonymous"
+info: "Passionate and ambitious software engineer. My favorite quote is: \"Someone once told me the definition of Hell: The last day you have on earth, the person you became will meet the person you could have become.\" - Anonymous"
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
