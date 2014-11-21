@@ -1,15 +1,16 @@
 # Site settings
 title: "KRUNO KNEGO"
-email: mail@krunoknego.com
-description: "Blog about web development. Currently I like using Symfony2 and Doctrine ORM so most of my blog posts will be about them. I also enjoy using Javascript frameworks and tools such as Vagrant."
+email: kruno@krunoknego.com
+description: "Software engineering blog about web & mobile development. "
 baseurl: ""
 url: "http://krunoknego.com"
 gitusername: KrunoKnego
 twitterusername: KKnego
 username: Kruno Knego
-info: "I'm a passionate web developer specialized in Symfony2 framework. Currently employed at <a href=\"http://www.locastic.com\">Locastic</a>"
+info: "Passionate software engineer. My favorite quote is: \"Someone once told me the definition of Hell: The last day you have on earth, the person you became will meet the person you could have become.\""
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 markdown: kramdown
 permalink: pretty
