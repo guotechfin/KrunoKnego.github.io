@@ -6,11 +6,11 @@ function generateRandomPosts()
 
         var randomIndexUsed = [];
         var counter = 0;
-        var numberOfPosts = 2;
+        var numberOfPosts = 1;
 
         var divRandomPosts = $("#random_posts");
 
-        divRandomPosts.append('<h2>You might also like: </h2><hr />');
+        divRandomPosts.append('<h2>You might also like: </h2>');
 
         while (counter < numberOfPosts)
         {
