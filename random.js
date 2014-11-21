@@ -1,18 +1,16 @@
 function generateRandomPosts()
 {
     $.getJSON("/search.json", function(data) {
-        console.log("[search.json loaded for random posts]");
-
         var postsCount = data.length;
         var posts = data;
 
         var randomIndexUsed = [];
         var counter = 0;
-        var numberOfPosts = 5;
+        var numberOfPosts = 2;
 
         var divRandomPosts = $("#random_posts");
 
-        divRandomPosts.append('<h2>other posts</h2><hr />');
+        divRandomPosts.append('<h2>You might also like: </h2><hr />');
 
         while (counter < numberOfPosts)
         {
