@@ -155,10 +155,12 @@ a:visited { color: #777777; }
   line-height: 1;
 }
 
-.post-link a {
+a.post-link {
     font-size: 22px ;
     font-weight: 200 ;
     color: #777777;
+    letter-spacing: -1px;
+    line-height: 1;
 }
 
 .posts .post-date {
