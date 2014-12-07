@@ -6,7 +6,7 @@
   padding: 0;
 }
 
-html, body { height: 100%; }
+html, body { height: 100%; font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 body {
   font-family: Helvetica, Arial, sans-serif;
@@ -18,10 +18,15 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #205caa; }
-
+a         { color: #777777; text-decoration: none; }
+a:hover   { color: #777777; text-decoration: underline; }
+a:active  { color: #777777;  }
+a:visited { color: #777777; }
+a.post-link {
+    font-size: 22px ;
+    font-weight: 200 ;
+    color: #777777;
+}
 /* Utility */
 
 .wrap:before,
@@ -41,7 +46,6 @@ a:visited { color: #205caa; }
 /* Site header */
 
 .site-header {
-  border-top: 5px solid #333;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   background-color: white;
@@ -175,6 +179,13 @@ a:visited { color: #205caa; }
   font-weight: 300;
 }
 
+.post-header h2 {
+    font-size: 35px;
+    letter-spacing: -1.75px;
+    line-height: 1;
+    font-weight: 300;
+}
+
 .post-header .meta {
   font-size: 15px;
   color: #818181;
@@ -227,8 +238,7 @@ a:visited { color: #205caa; }
 
 .post pre,
 .post code {
-  border: 1px solid #d5d5e9;
-  background-color: #eef;
+  background-color: #f5f7f8;
   padding: 8px 12px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -325,7 +335,10 @@ a:visited { color: #205caa; }
 
 
 @media screen and (max-width: 750px) {
-
+    .hidden-desktop { display: inherit; }
+    .visible-desktop { display: none; }
+    .visible-phone { display: inherit; }
+    .hidden-phone { display: none; }
   .footer-col-1 { width: 50%; }
 
   .footer-col-2 {
@@ -406,11 +419,6 @@ a:visited { color: #205caa; }
 
 pre { white-space: pre; overflow: auto; }
 
-/*OVERRIDING DEFAULT CSS OF JEKYLL*/
-.site-header {
-    border-top: 0 !important;
-}
-
 .blog-index {
     float: right;
 }
@@ -425,21 +433,9 @@ pre { white-space: pre; overflow: auto; }
     width: 320px;
 }
 
-body {
-    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-}
-
 .header-wrap {
     max-width: 800px;
     margin: 0 auto;
-}
-
-.rss-icon {
-    background: url("rss-16.png");
-    height: 16px;
-    width: 16px;
-    display: inline-block;
-
 }
 
 .rss {
@@ -483,87 +479,23 @@ body {
     width: 800px;
 }
 
-@media screen and (max-width: 750px) {
-    .hidden-desktop { display: inherit !important; }
-    .visible-desktop { display: none !important; }
-    .visible-phone { display: inherit !important; }
-    .hidden-phone { display: none !important; }
-}
 
-/* This gets Google to fall into place */
 .social {
     font-size: 1px;
 }
-
-/* This gets Facebook to fall into place */
-/*.facebook {*/
-/*vertical-align: middle;*/
-/*}*/
-
-/* Set an optional width for your button wrappers */
 .social span {
     display: inline-block;
     width: 110px;
 }
-
-/* Adjust the widths individually if you like */
 .social .google {
     width: 75px;
 }
-
 hr {
     margin: 18px 0;
     border: 0;
     border-top: 1px solid #eeeeee;
     border-bottom: 1px solid #ffffff;
 }
-
-/* unvisited link */
-a:link {
-    color: #777777 !important;
-}
-
-/* visited link */
-a:visited {
-    color: #777777 !important;
-}
-
-/* mouse over link */
-a:hover {
-    color: #777777 !important;
-}
-
-/* selected link */
-a:active {
-    color: #777777 !important;
-}
-
-.post-header h2 {
-    font-size: 35px !important;
-    letter-spacing: -1.75px !important;
-    line-height: 1 !important;
-    font-weight: 300 !important;
-}
-
-a.post-link {
-    font-size: 22px !important;
-    letter-spacing: 0.25px !important;
-    line-height: 1 !important;
-    font-weight: 200 !important;
-    color: #777777;
-}
-
-.post pre,
-.post code {
-    border: 0!important;
-    background-color: #f5f7f8 !important;
-    padding: 8px 12px;
-    /*-webkit-border-radius: 3px;*/
-    /*-moz-border-radius: 3px;*/
-    border-radius: 3px;
-    font-size: 15px;
-}
-
 .lang {
     color: rgb(247, 247, 247);
     background: rgb(173, 173, 173);
@@ -573,4 +505,4 @@ a.post-link {
 #mc_embed_signup{
     background:#FDFDFD;
     clear:left;
-    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif !important}
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;}
