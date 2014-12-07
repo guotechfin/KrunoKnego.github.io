@@ -224,3 +224,7 @@ just write <code>cap deploy rollback</code> to revert to the previous release.
 
 I believe I've demonstrated through this short tutorial just how easy it is to deploy your symfony2 applications using capifony.
 Sure you might have some trouble configuring all this the first time but in the long run it will pay off.
+
+<h2>Read more</h2>
+
+* [For how to setup capifony using multistage extension](http://capifony.org/cookbook/using-the-multistage-extension.html)
