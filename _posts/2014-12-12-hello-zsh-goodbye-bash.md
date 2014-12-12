@@ -6,9 +6,6 @@ date: " 2014-12-12 14:39:59"
 tags: []
 ---
 
-
-Hello ZSH; Goodbye Bash
-
 ##Introduction
 I’m a converted mac user. I used to hate Apple products with all my heart because I thought they were pretentious. But seriously. Once you begin using an Apple product you see what’s the hype all about. Put aside the social status and everything else that goes with it. The products are very good and enjoyable to use.
 
