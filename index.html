@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
+<h1>Most recent blog posts</h1>
 <div class="home">
 
     {% for post in paginator.posts %}
       <div class="post">
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a class="post-link" title="{{ post.title }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </div>
     <hr/>
     {% endfor %}
@@ -14,7 +15,7 @@ layout: default
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
     {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    <a title="{{ previous ~ paginato }}" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
     {% else %}
     <span>&laquo; Prev</span>
     {% endif %}
@@ -22,14 +23,14 @@ layout: default
     {% if page == paginator.page %}
     <em>{{ page }}</em>
     {% elsif page == 1 %}
-    <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    <a title="{{ previous ~ paginato }}" href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
     {% else %}
-    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    <a htitle="{{ previous ~ paginato }}" ref="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
     {% endfor %}
 
     {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    <a title="{{ previous ~ paginato }}" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
     {% else %}
     <span>Next &raquo;</span>
     {% endif %}

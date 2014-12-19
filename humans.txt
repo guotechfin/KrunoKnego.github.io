@@ -1,0 +1,46 @@
+  _  __    ___    _   _   _  _     ___    _  __   _  _     ___     ___     ___
+ | |/ /   | _ \  | | | | | \| |   / _ \  | |/ /  | \| |   | __|   / __|   / _ \
+ | ' <    |   /  | |_| | | .` |  | (_) | | ' <   | .` |   | _|   | (_ |  | (_) |
+ |_|\_\   |_|_\   \___/  |_|\_|   \___/  |_|\_\  |_|\_|   |___|   \___|   \___/
+_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|
+"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'
+
+/* MAIN */
+  Develop & Main Design: Kruno Knego
+  Twitter: @KKnego
+  Site: http://krunoknego.com
+
+/* SITE */
+  Doctype: HTML5
+  IDE: PHPStorm
+
+/* SPECIAL THANKS */
+    To whole LOCASTIC team who supported me along the way.
+
+    Supporter: Antonio Perić
+    Twitter: @antonioperic
+
+    Supporter: Marko Maljković
+    Twitter: @buckotronic
+
+    Supporter: Sandro Njegovan
+    Twitter: @snd1107
+
+    Supporter: Ana Parunov
+    Twitter: @anaparunov
+
+    Supporter: Ivan Milas
+    Twitter: N/A
+
+    Supporter: Leonardo Bujas
+    Twitter: @flegm0r
+
+    Supporter: Danko Slipčević
+    Twitter: N/A
+
+    Supporter: Danilo Trebješanin
+    Twitter: N/A
+
+
+
+

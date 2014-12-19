@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="header-wrap">
-    <a class="site-title" href="{{ site.baseurl }}/"><div class="rotate"></div>{{ site.title }}</a>
+    <a title="Kruno Knego Homepage" class="site-title" href="{{ site.baseurl }}/"><div class="rotate"></div>{{ site.title }}</a>
     <nav class="site-nav" onclick="showHide()">
       <a href="#" class="menu-icon">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -16,7 +16,7 @@
       <div class="trigger" id="trigger-menu">
         {% for page in site.pages %}
           {% if page.title |length %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          <a title="{{ page.title }}" class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
       </div>
