@@ -508,3 +508,10 @@ hr {
     background:#FDFDFD;
     clear:left;
     font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+.index-title {
+    font-size: 40px;
+    font-weight: 100;
+    color: #777777;
+    margin-bottom: 35px;
+}

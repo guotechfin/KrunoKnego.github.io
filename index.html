@@ -1,16 +1,14 @@
 ---
 layout: default
 ---
-<h1 class="entry-title">Most recent blog posts</h1>
+<h1 class="index-title">Most recent blog posts</h1>
 <div class="home">
-
     {% for post in paginator.posts %}
       <div class="post">
         <a class="post-link" title="{{ post.title }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </div>
     <hr/>
     {% endfor %}
-
 </div>
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
