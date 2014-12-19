@@ -6,14 +6,14 @@ date: " 2014-08-30 20:48:37"
 tags: []
 ---
 
-![SOAP]({{ site.url }}/assets/soap.jpg){: .center-image}
+![SOAP]({{ site.url }}/assets/soap.jpg "SOAP Image"){: .center-image}
 
 SOAP, originally defined as Simple Object Access protocol, is a protocol specification for exchanging structured
 information in the implementation of web services in computer networks. It relies on XML Information Set for its
 message format, and usually relies on other application layer protocols, most notably Hypertext Transfer Protocol
 (HTTP) or Simple Mail Transfer Protocol (SMTP), for message negotiation and transmission.
 
-<a href="http://en.wikipedia.org/wiki/SOAP" target="_blank">Taken from Wikipedia</a>
+<a title="SOAP Wikipedia Article" href="http://en.wikipedia.org/wiki/SOAP" target="_blank">Taken from Wikipedia</a>
 
 I will talk only about part of SOAP and that is how to handle SOAP response using PHP.
 

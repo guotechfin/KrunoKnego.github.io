@@ -6,7 +6,7 @@ date: " 2014-08-28 17:55:46"
 tags: []
 ---
 
-![Twig]({{ site.url }}/assets/twig.jpg){: .center-image}
+![Twig]({{ site.url }}/assets/twig.jpg "Twig Image"){: .center-image}
 
 This will be a short tutorial how to build twig extension that uses regular expressions.
 Let's say you have a html document in your variable and you want to extract image or paragraph

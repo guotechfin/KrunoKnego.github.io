@@ -6,7 +6,7 @@ date: " 2014-09-19 21:53:42"
 tags: []
 ---
 
-![500]({{ site.url }}/assets/500.jpg){: .center-image}
+![500]({{ site.url }}/assets/500.jpg "Error 500 Image"){: .center-image}
 
 So this will be a quick tip.
 
@@ -48,7 +48,7 @@ with any issues that the suphp log brought to light. The suphp log is located at
 the User and Group specified in the httpd.conf. In this case, the error may simply be pointing out
 that an unauthorized user is attempting to access a script
 
-Taken from <a href="http://www.liquidweb.com/kb/apache-error-premature-end-of-script-headers/" target="_blank">http://www.liquidweb.com/kb/apache-error-premature-end-of-script-headers/</a>
+Taken from <a title="Premature end of script headers" href="http://www.liquidweb.com/kb/apache-error-premature-end-of-script-headers/" target="_blank">http://www.liquidweb.com/kb/apache-error-premature-end-of-script-headers/</a>
 
 In my case the problem was regarding permissions.
 After I've set correct permissions to my directory everything worked flawlessly.

@@ -6,7 +6,7 @@ date: " 2014-09-21 18:05:15"
 tags: []
 ---
 
-![SSH]({{ site.url }}/assets/ssh.jpg){: .center-image}
+![SSH]({{ site.url }}/assets/ssh.jpg "SSH image"){: .center-image}
 
 Did you ever need to log on to remote server via SSH? Are you tired of constantly
 searching for the username and/or password of your remote server? If your answer to these questions
@@ -86,5 +86,5 @@ So there you have it. This configuration might take you a while to complete the 
 benefits it adds are enormous. No more searching where is password for serverA or
 username for serverB and so on.
 
-If you're interested in speeding up your ssh connection read more <a href="http://puppetlabs.com/blog/speed-up-ssh-by-reusing-connections">here</a>.
+If you're interested in speeding up your ssh connection read more <a href="http://puppetlabs.com/blog/speed-up-ssh-by-reusing-connections" title="puppetlabs">here</a>.
 

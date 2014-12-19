@@ -38,27 +38,27 @@ Let’s say you changed quite a few directories. Now you want to return to a spe
 d and then choose number to which directory you want to return.
 
 
-![History of directories]({{ site.url }}/assets/zsh/directory.gif)
+![History of directories]({{ site.url }}/assets/zsh/directory.gif "History of directories Image")
 
 In ZSH you don’t even have to write cd. You can simply write name of directory, press enter and ta-da! You’ve successfully changed directory.
 
 
-![Change directory without cd]({{ site.url }}/assets/zsh/cd.gif)
+![Change directory without cd]({{ site.url }}/assets/zsh/cd.gif "Change directory without cd Image")
 
 It also comes with powerful auto-complete feature. You can use arrow keys to select which directory you want to switch to.
 
 
-![Auto-complete ZSH]({{ site.url }}/assets/zsh/cd_completion.gif)
+![Auto-complete ZSH]({{ site.url }}/assets/zsh/cd_completion.gif "Aut-Complete ZSH Image")
 
 Just look how powerful ZSH is. If the first few letters are unique and you press TAB it will automatically expand to full name of the directory.
 
 
-![Auto-complete ZSH tab expand]({{ site.url }}/assets/zsh/cd_completion_2.gif)
+![Auto-complete ZSH tab expand]({{ site.url }}/assets/zsh/cd_completion_2.gif "Cd completion Image")
 
 This is globbing. Here is **/ pattern used which tells zsh to go any depth till it matches directory ansible.
 
 
-![ZSH Globbing]({{ site.url }}/assets/zsh/globbing.gif)
+![ZSH Globbing]({{ site.url }}/assets/zsh/globbing.gif "ZSH Globbing Image")
 
 ## Wrap-up
 
@@ -67,5 +67,5 @@ To make your ZSH even more powerful enable vi mode ```bindkey -v```
 
 ## Read more
 
-* [why-zsh-is-cooler-than-your-shell](http://www.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692)
-* [globbing-wildcard-characters-with-zsh](http://www.techrepublic.com/article/globbing-wildcard-characters-with-zsh/)
+* [why-zsh-is-cooler-than-your-shell](http://www.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692 "Why is ZSH cooler than your shell")
+* [globbing-wildcard-characters-with-zsh](http://www.techrepublic.com/article/globbing-wildcard-characters-with-zsh/ "Globbing ZSH")

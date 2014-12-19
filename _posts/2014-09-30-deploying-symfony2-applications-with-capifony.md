@@ -227,4 +227,4 @@ Sure you might have some trouble configuring all this the first time but in the 
 
 <h2>Read more</h2>
 
-* [For how to setup capifony using multistage extension](http://capifony.org/cookbook/using-the-multistage-extension.html)
+* [For how to setup capifony using multistage extension](http://capifony.org/cookbook/using-the-multistage-extension.html "Capifony Multistaging")

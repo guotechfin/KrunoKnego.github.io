@@ -17,18 +17,18 @@ You don't have to worry about including Kint in any of the files because compose
 
 To debug a variable you simply write <code>dd($someVar)</code>
 
-![Kint_1]({{ site.url }}/assets/kint1.jpg){: .center-image}
+![Kint_1]({{ site.url }}/assets/kint1.jpg "Example Kind Image"){: .center-image}
 
 You'll get a nice visual representation of your variable. But you might say hey I can do that with <code>var_dump</code>
 as well. It's not pretty but I get things done.
 
-![Vardump]({{ site.url }}/assets/vardump.jpg){: .center-image}
+![Vardump]({{ site.url }}/assets/vardump.jpg "Vardump Image"){: .center-image}
 
 Well wrong, have you ever used <code>var_dump</code> on an object? You're still waiting for it load?
 
 Kint doesn't have such problem. Let's see what happens when you debug an object using Kint.
 
-![Kint_2]({{ site.url }}/assets/kint2.jpg){: .center-image}
+![Kint_2]({{ site.url }}/assets/kint2.jpg "Kint Image"){: .center-image}
 
 Kint also comes with nice set of features. If you prepend dd with ! you'll get already expanded data
 
@@ -39,4 +39,4 @@ when you use kint with two d's. If you want to prevent that option you should us
 
 <code>d($someVar)</code>
 
-To read more about kint check their official website <a href="http://raveren.github.io/kint/">kint</a>
+To read more about kint check their official website <a title="Kint" href="http://raveren.github.io/kint/">kint</a>

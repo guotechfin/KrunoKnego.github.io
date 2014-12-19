@@ -5,12 +5,12 @@ date:   2014-05-12 23:06:00
 categories: vagrant tools
 ---
 
-![Vagrant]({{ site.url }}/assets/vagrant.jpg){: .center-image}
+![Vagrant]({{ site.url }}/assets/vagrant.jpg "Vagrant Share"){: .center-image}
 
 If you're doing web development and you never heard of Vagrant you better catch up and see what's the
 fuss all about. Basically once you see what Vagrant can do for you, you'll wonder why such tool
 didn't come sooner. To read more about Vagrant you can do so at
-<a href="http://www.vagrantup.com" target="_blank">Vagrant</a>
+<a title="Vagrant up" href="http://www.vagrantup.com" target="_blank">Vagrant</a>
 
 This blog post will talk about a little more advanced feature of Vagrant that came up in the 1.5 release.
 It's called Vagrant Share.
@@ -22,7 +22,7 @@ With it you can show your clients your project without setting up and pushing yo
 
 Now how to enable such a thing? Well it's fairly simple.
 
-First go to <a href="https://vagrantcloud.com/" target="_blank">Vagrant Cloud</a> and create an
+First go to <a title="Vagrant cloud" href="https://vagrantcloud.com/" target="_blank">Vagrant Cloud</a> and create an
 account.
 
 Afterwards go ahead and open your terminal and enter
