@@ -6,7 +6,7 @@ date: " 2014-09-21 18:05:15"
 tags: []
 ---
 
-![SSH]({{ site.url }}/assets/ssh.jpg "SSH image"){: .center-image}
+![SSH]({{ site.url }}/assets/ssh.jpg ){: .center-image}
 
 Did you ever need to log on to remote server via SSH? Are you tired of constantly
 searching for the username and/or password of your remote server? If your answer to these questions

@@ -5,7 +5,7 @@ date:   2014-06-15 23:06:00
 categories: linux ssh
 ---
 
-![Tmux]({{ site.url }}/assets/tmux3.png "TMUX Image"){: .center-image}
+![Tmux]({{ site.url }}/assets/tmux3.png ){: .center-image}
 
 ## What is TMUX and why should you use it?
 

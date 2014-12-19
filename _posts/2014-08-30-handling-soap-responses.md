@@ -6,7 +6,7 @@ date: " 2014-08-30 20:48:37"
 tags: []
 ---
 
-![SOAP]({{ site.url }}/assets/soap.jpg "SOAP Image"){: .center-image}
+![SOAP]({{ site.url }}/assets/soap.jpg ){: .center-image}
 
 SOAP, originally defined as Simple Object Access protocol, is a protocol specification for exchanging structured
 information in the implementation of web services in computer networks. It relies on XML Information Set for its

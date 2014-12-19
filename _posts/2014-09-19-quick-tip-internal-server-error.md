@@ -6,7 +6,7 @@ date: " 2014-09-19 21:53:42"
 tags: []
 ---
 
-![500]({{ site.url }}/assets/500.jpg "Error 500 Image"){: .center-image}
+![500]({{ site.url }}/assets/500.jpg ){: .center-image}
 
 So this will be a quick tip.
 

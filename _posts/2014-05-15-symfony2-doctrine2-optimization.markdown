@@ -5,7 +5,7 @@ date:   2014-05-15 23:06:00
 categories: symfony2 doctrine2 optimization
 ---
 
-![Doctrine2]({{ site.url }}/assets/doctrine2.png "Doctrine2 Image"){: .center-image}
+![Doctrine2]({{ site.url }}/assets/doctrine2.png ){: .center-image}
 
 If you ever found yourself asking why your doctrine2 is suddenly going slow or got "Killed" message in your terminal
 when you used doctrine then this post is for you.

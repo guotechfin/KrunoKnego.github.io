@@ -7,7 +7,7 @@ tags: []
 ---
 
 
-![Doctrine2]({{ site.url }}/assets/doctrine2.png "Doctrine Image"){: .center-image}
+![Doctrine2]({{ site.url }}/assets/doctrine2.png ){: .center-image}
 
 There are two ways of setting default values for Doctrine2 entities.
 

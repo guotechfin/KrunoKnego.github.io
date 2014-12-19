@@ -38,27 +38,27 @@ Let’s say you changed quite a few directories. Now you want to return to a spe
 d and then choose number to which directory you want to return.
 
 
-![History of directories]({{ site.url }}/assets/zsh/directory.gif "History of directories Image")
+![History of directories]({{ site.url }}/assets/zsh/directory.gif )
 
 In ZSH you don’t even have to write cd. You can simply write name of directory, press enter and ta-da! You’ve successfully changed directory.
 
 
-![Change directory without cd]({{ site.url }}/assets/zsh/cd.gif "Change directory without cd Image")
+![Change directory without cd]({{ site.url }}/assets/zsh/cd.gif )
 
 It also comes with powerful auto-complete feature. You can use arrow keys to select which directory you want to switch to.
 
 
-![Auto-complete ZSH]({{ site.url }}/assets/zsh/cd_completion.gif "Aut-Complete ZSH Image")
+![Auto-complete ZSH]({{ site.url }}/assets/zsh/cd_completion.gif )
 
 Just look how powerful ZSH is. If the first few letters are unique and you press TAB it will automatically expand to full name of the directory.
 
 
-![Auto-complete ZSH tab expand]({{ site.url }}/assets/zsh/cd_completion_2.gif "Cd completion Image")
+![Auto-complete ZSH tab expand]({{ site.url }}/assets/zsh/cd_completion_2.gif )
 
 This is globbing. Here is **/ pattern used which tells zsh to go any depth till it matches directory ansible.
 
 
-![ZSH Globbing]({{ site.url }}/assets/zsh/globbing.gif "ZSH Globbing Image")
+![ZSH Globbing]({{ site.url }}/assets/zsh/globbing.gif )
 
 ## Wrap-up
 

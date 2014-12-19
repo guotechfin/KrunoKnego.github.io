@@ -19,7 +19,7 @@ and set it to 0
 
 I've first stumbled across this file
 
-![Donotedit]({{ site.url }}/assets/donotedit.jpg "Do not edit Image"){: .center-image}
+![Donotedit]({{ site.url }}/assets/donotedit.jpg ){: .center-image}
 
 On my system that file was located on
 

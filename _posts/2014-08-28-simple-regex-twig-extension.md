@@ -6,12 +6,12 @@ date: " 2014-08-28 17:55:46"
 tags: []
 ---
 
-![Twig]({{ site.url }}/assets/twig.jpg "Twig Image"){: .center-image}
+![Twig]({{ site.url }}/assets/twig.jpg ){: .center-image}
 
 This will be a short tutorial how to build twig extension that uses regular expressions.
 Let's say you have a html document in your variable and you want to extract image or paragraph
 from that variable. If you were to look at twig's filters and functions you'd soon notice there's nothing
-that can help you accomplish that task  <a href="http://twig.sensiolabs.org/documentation" target="_blank">Twig Documentation</a>
+that can help you accomplish that task  <a title="TWIG Documentation" href="http://twig.sensiolabs.org/documentation" target="_blank">Twig Documentation</a>
 
 Luckily you can easily extend twig's initial set of functions and filters and it's fairly simple.
 
