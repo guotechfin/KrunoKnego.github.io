@@ -496,6 +496,9 @@ pre { white-space: pre; overflow: auto; }
     margin-left: 5px;
     margin-right: 5px;
 }
+.linkedin {
+    width: 50px !important;
+}
 hr {
     margin: 18px 0;
     border: 0;
