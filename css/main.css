@@ -486,11 +486,15 @@ pre { white-space: pre; overflow: auto; }
     font-size: 1px;
 }
 .social span {
-    display: inline-block;
+    /*display: inline-block;*/
     width: 110px;
 }
 .social .google {
     width: 75px;
+}
+.twitter {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 hr {
     margin: 18px 0;
