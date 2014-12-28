@@ -4,8 +4,6 @@ title: Bookshelf
 permalink: /bookshelf/
 ---
 
-## Books I've read
-
 * PHP Objects, Patterns, and Practice by Matt Zandstra (Fourth edition)
 * The Very, Very Rich and How They Got That Way
 * The C Programming Language
