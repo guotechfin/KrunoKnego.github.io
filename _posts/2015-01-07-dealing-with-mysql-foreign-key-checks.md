@@ -10,8 +10,9 @@ tags: []
 
 One cannot speak of relational databases without mentioning foreign keys as they are integral part of those kind of databases.
 But sometimes when you're using MySQL you'll find yourself in need of temporarily disabling foreign key checks.
-Foreign key checks usually shouldn't be tempered with but there are cases when you need to step in to for example
-import a table that continuously gives you FK error.
+For example imagine a situation where you're continuously trying to import a MySQL table but on each try you get FK error.
+Now that might be frustrating and you know it should work but only if you could somehow disable those pesky foreign keys if only
+for a moment.
 
 ## How to disable FK?
 
