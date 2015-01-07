@@ -8,7 +8,7 @@ tags: []
 
 ## Why disable foreign key checks!?
 
-One cannot speak of relational databases without mentioning foreign keys as their are integral part of those kind of databases.
+One cannot speak of relational databases without mentioning foreign keys as they are integral part of those kind of databases.
 But sometimes when you're using MySQL you'll find yourself in need of temporarily disabling foreign key checks.
 Foreign key checks usually shouldn't be tempered with but there are cases when you need to step in to for example
 import a table that continuously gives you FK error.
