@@ -35,6 +35,7 @@ Don't forget to create configuration files for each one of them.
 ## Usage
 
 To deploy on production: <code>cap prod deploy</code>
+
 To deploy on development: <code>cap dev deploy</code> or <code>cap deploy</code>
 
 ## Conclusion
