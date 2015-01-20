@@ -530,5 +530,6 @@ hr {
     background: #BEBEBE;
     color: #1a171a;
     display: inline-block;
+    border-radius: 6px;
 }
 
