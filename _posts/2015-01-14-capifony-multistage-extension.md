@@ -3,7 +3,7 @@ layout: post
 title: "Capifony Multistage Extension"
 category: 
 date: " 2015-01-14 08:59:10"
-tags: []
+tags: [capifony, deployment]
 ---
 
 ## Introduction
