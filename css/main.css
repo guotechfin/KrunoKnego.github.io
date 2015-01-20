@@ -529,5 +529,6 @@ hr {
 .tag {
     background: #009913;
     color: #1a171a;
+    display: inline-block;
 }
 
