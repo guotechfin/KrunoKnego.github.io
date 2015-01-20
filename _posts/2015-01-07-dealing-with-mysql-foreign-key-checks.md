@@ -20,7 +20,7 @@ Disabling foreign keys is very simple. If you wish to disable FK checks for only
 following command <code>SET FOREIGN_KEY_CHECKS = 0</code>.
 When you finished executing query that was giving you errors set back the FK checks to true <code>SET FOREIGN_KEY_CHECKS = 1</code>.
 
-If you wish to disable FK checks no just for the current session but globally then you'd have to add GLOBAL keyword like this:
+If you wish to disable FK checks not just for the current session but globally then you'd have to add GLOBAL keyword like this:
 <code>SET GLOBAL FOREIGN_KEY_CHECKS = 0</code>. Just remember same as before once you've finished with execution of
 your queries turn it back on <code>SET GLOBAL FOREIGN_KEY_CHECKS = 1</code>.
 
