@@ -526,3 +526,8 @@ hr {
     clear: both;
 }
 
+.tag {
+    background: #009913;
+    color: #1a171a;
+}
+
