@@ -3,7 +3,7 @@ layout: post
 title: "How to increase PHPMyAdmin timeout"
 category: 
 date: " 2014-10-15 16:21:15"
-tags: []
+tags: [phpmyadmin]
 ---
 
 Let's say you're importing a large database in your PHPMyAdmin you already increased

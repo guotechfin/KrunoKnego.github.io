@@ -3,7 +3,7 @@ layout: post
 title: "What is Kint and why you should use it"
 category: 
 date: " 2014-10-16 13:09:33"
-tags: []
+tags: [kint, debugging]
 ---
 
 So you're a PHP developer, huh!? Well then you must be using <code>var_dump</code> or

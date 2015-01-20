@@ -3,7 +3,7 @@ layout: post
 title: "Deploying Symfony2 applications with Capifony"
 category: 
 date: " 2014-09-30 10:55:16"
-tags: []
+tags: [capifony, deployment]
 ---
 
 <h2>Introduction</h2>

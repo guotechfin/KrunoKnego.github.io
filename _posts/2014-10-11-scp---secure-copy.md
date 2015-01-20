@@ -3,7 +3,7 @@ layout: post
 title: "SCP   Secure Copy"
 category: 
 date: " 2014-10-11 15:05:45"
-tags: []
+tags: [linux, scp]
 ---
 
 Today I had a problem. I wanted to copy a file between my host computer and the server but without using

@@ -3,7 +3,7 @@ layout: post
 title: "Handling SOAP responses"
 category: 
 date: " 2014-08-30 20:48:37"
-tags: []
+tags: [symfony2, soap]
 ---
 
 ![SOAP]({{ site.url }}/assets/soap.jpg ){: .center-image}

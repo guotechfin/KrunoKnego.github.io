@@ -3,6 +3,7 @@ layout: post
 title:  "Doctrine2 optimization tips"
 date:   2014-05-15 23:06:00
 categories: symfony2 doctrine2 optimization
+tags: [symfony2, doctrine2]
 ---
 
 ![Doctrine2]({{ site.url }}/assets/doctrine2.png ){: .center-image}

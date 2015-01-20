@@ -3,7 +3,7 @@ layout: post
 title: "How to improve your SSH workflow"
 category: 
 date: " 2014-09-21 18:05:15"
-tags: []
+tags: [linux, ssh]
 ---
 
 ![SSH]({{ site.url }}/assets/ssh.jpg ){: .center-image}

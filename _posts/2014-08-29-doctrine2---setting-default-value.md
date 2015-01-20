@@ -3,7 +3,7 @@ layout: post
 title: "Doctrine2 setting default value"
 category: 
 date: " 2014-08-29 10:42:21"
-tags: []
+tags: [symfony2, doctrine2]
 ---
 
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Vagrant share!"
 date:   2014-05-12 23:06:00
 categories: vagrant tools
+tags: [vagrant]
 ---
 
 ![Vagrant]({{ site.url }}/assets/vagrant.jpg ){: .center-image}

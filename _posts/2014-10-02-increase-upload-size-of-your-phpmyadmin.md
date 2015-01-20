@@ -3,7 +3,7 @@ layout: post
 title: "Increase upload size of your PHPMyAdmin"
 category: 
 date: " 2014-10-02 16:32:03"
-tags: []
+tags: [phpmyadmin]
 ---
 
 <h2>Problem</h2>

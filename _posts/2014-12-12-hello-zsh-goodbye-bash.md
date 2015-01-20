@@ -3,7 +3,7 @@ layout: post
 title: "Hello ZSH; Goodbye Bash"
 category: 
 date: " 2014-12-12 14:39:59"
-tags: []
+tags: [linux, zsh]
 ---
 
 ##Introduction

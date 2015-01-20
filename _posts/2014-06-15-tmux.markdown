@@ -3,6 +3,7 @@ layout: post
 title:  "TMUX - terminal multiplexer"
 date:   2014-06-15 23:06:00
 categories: linux ssh
+tags: [linux, tmux]
 ---
 
 ![Tmux]({{ site.url }}/assets/tmux3.png ){: .center-image}

@@ -3,7 +3,7 @@ layout: post
 title: "Simple regex twig extension"
 category: 
 date: " 2014-08-28 17:55:46"
-tags: []
+tags: [symfony2, regex, twig]
 ---
 
 ![Twig]({{ site.url }}/assets/twig.jpg ){: .center-image}

@@ -3,7 +3,7 @@ layout: post
 title: "Symfony2 Data Transformer and Custom Field Types"
 category: 
 date: " 2014-10-20 09:05:23"
-tags: []
+tags: [symfony2, data_transformers]
 ---
 
 I was working on a project that dealt with sport analytics and Symfony2 forms were very slow

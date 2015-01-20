@@ -3,7 +3,7 @@ layout: post
 title: "PHPStorm and Symfony2"
 category: 
 date: " 2014-08-14 11:09:39"
-tags: []
+tags: [phpstorm, symfony2]
 ---
 
 ![PHPStorm]({{ site.url }}/assets/phpstorm.gif ){: .center-image}

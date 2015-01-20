@@ -3,7 +3,7 @@ layout: post
 title: "Quick Tip: Internal Server Error"
 category: 
 date: " 2014-09-19 21:53:42"
-tags: []
+tags: [server_error]
 ---
 
 ![500]({{ site.url }}/assets/500.jpg ){: .center-image}

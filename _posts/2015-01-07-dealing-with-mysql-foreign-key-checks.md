@@ -3,7 +3,7 @@ layout: post
 title: "Dealing with MySQL foreign key checks"
 category: 
 date: " 2015-01-07 16:25:40"
-tags: []
+tags: [mysql]
 ---
 
 ## Why disable foreign key checks!?
