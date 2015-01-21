@@ -533,3 +533,7 @@ hr {
     border-radius: 6px;
 }
 
+.date {
+    display: inline-block;
+}
+
