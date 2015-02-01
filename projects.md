@@ -4,4 +4,4 @@ title: Projects
 permalink: /projects/
 ---
 
-* [Symfony2 TODO App](http://krunoknego.github.io/Todo-App-Symfony2)
+[Symfony Vagrant CentOS 6.5 Box provisioned with Ansible](https://github.com/locastic/SymfonyBox)

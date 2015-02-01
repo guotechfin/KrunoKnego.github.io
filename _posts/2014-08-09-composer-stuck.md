@@ -21,3 +21,9 @@ that basically says composer has a problem with memory.
 
 So I bumped my Vagranfile from default 384 MB to 1024MB and later on when I used composer update
 command it took a while but it completed it successfully.
+
+If for some reason you still get errors you can try manually updating the memory limit like this:
+
+<code>php -d memory_limit=-1 composer.phar update</code>
+
+-d stands for define. You can also use it as -define.
