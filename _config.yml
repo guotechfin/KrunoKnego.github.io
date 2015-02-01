@@ -14,7 +14,7 @@ gems:
   - jekyll-redirect-from
   - jekyll-sitemap
 
-markdown: kramdown
+markdown: maruku
 permalink: pretty
 paginate: 20
 exclude:
