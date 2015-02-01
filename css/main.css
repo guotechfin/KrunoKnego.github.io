@@ -557,12 +557,12 @@ td{
 tr:nth-child(odd){ background-color:#b2b2b2; }
 tr:nth-child(even)    { background-color:#f7f7f7; }
 
-.google-search table{
-}
 .google-search th {
+    background-color: #FFFFFF;
 }
 .google-search td{
+    background-color: #FFFFFF;
 }
 .google-search tr {
-
+    background-color: #FFFFFF;
 }
