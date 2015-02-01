@@ -548,8 +548,7 @@ td{
     vertical-align:middle;
     text-align:left;
     padding:7px;
-    color: #ffffff;
-    background-color: #000000;
+    color:#000000;
 }
 tr:nth-child(odd){ background-color:#b2b2b2; }
 tr:nth-child(even)    { background-color:#f7f7f7; }

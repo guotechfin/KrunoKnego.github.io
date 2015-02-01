@@ -16,7 +16,7 @@ TAR compressed files with z flag typically have extension <code>.tar.gz</code> o
 Here you have complete list of short and long TAR suffixes:
 
 | Short | Long    |
-|-------|---------|
+|:-----:|:-------:|
 |  .tgz | .tar.gz |
 |  .tbz | .tar.bz2|
 |  .tz  | .tar.Z  |
@@ -34,7 +34,7 @@ To clarify the meaning of flags look at the table below.
 
 
 |  Flag |                 Meaning
-|-------|------------------------------------------|
+|:-----:|:----------------------------------------:|
 |   c   | Create new archive                       |
 |   v   | Verbose output                           |
 |   f   | Filename of the archive                  |
@@ -52,7 +52,7 @@ If you happen to encounter files with <code>.tar.bz2</code> extension you'd hand
 
 
 |  Flag |                 Meaning
-|-------|------------------------------------------|
+|:-----:|:----------------------------------------:|
 |   x   | Create new archive                       |
 |   v   | Verbose output                           |
 |   f   | Filename of the archive                  |
