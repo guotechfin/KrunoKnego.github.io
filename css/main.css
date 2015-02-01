@@ -546,10 +546,10 @@ table{
  }
 td{
     vertical-align:middle;
-    border:1px solid #ffffff;
     text-align:left;
     padding:7px;
-    color:#000000;
+    color: #ffffff;
+    background-color: #000000;
 }
 tr:nth-child(odd){ background-color:#b2b2b2; }
 tr:nth-child(even)    { background-color:#f7f7f7; }
