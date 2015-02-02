@@ -11,7 +11,7 @@ tags: [linux, tar]
 TAR stands for tape archive. In linux/unix systems it's available as a command that can handle extraction and
 compression of files and directories. TAR joins multiple files into one file. The compression or decompression for that
 matter occurs only when you use either z or j flag. You can use only one type of compression.
-If you decide to go with z flag then you'll be using GZIP and with j flag you'd be using BZIP2.
+If you decide to go with z flag then you'll be using GZIP and with j flag you'll be using BZIP2.
 TAR compressed files with z flag typically have extension <code>.tar.gz</code> or it's short form <code>.tgz</code>.
 Here you have complete list of short and long TAR suffixes:
 
@@ -62,7 +62,7 @@ If you happen to encounter files with <code>.tar.bz2</code> extension you'd hand
 ## Conclusion
 
 TAR is only one way of extracting/compressing files in linux/unix systems. If you prefer using ZIP then I suggest
-looking into zip command alternatively if you prefer using RAR then you could take a loot at RAR.
+looking into zip command. Alternatively if you prefer using RAR then you could take a loot at unrar.
 In the end there's no one to rule them all. It's mainly what you prefer using.
 
 
