@@ -62,7 +62,8 @@ If you happen to encounter files with <code>.tar.bz2</code> extension you'd hand
 ## Conclusion
 
 TAR is only one way of extracting/compressing files in linux/unix systems. If you prefer using ZIP then I suggest
-looking into zip command.
+looking into zip command alternatively if you prefer using RAR then you could take a loot at RAR.
+In the end there's no one to rule them all. It's mainly what you prefer using.
 
 
 ## Read More
