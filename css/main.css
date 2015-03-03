@@ -535,6 +535,11 @@ hr {
     padding-right: 4px;
 }
 
+a.tag         { color: #FFFFFF; text-decoration: none; }
+a.tag:hover   { color: #FFFFFF; text-decoration: underline; }
+a.tag:active  { color: #FFFFFF;  }
+a.tag:visited { color: #FFFFFF; }
+
 .date {
     display: inline-block;
     color: #777777;
