@@ -517,6 +517,13 @@ hr {
     float: left;
 }
 
+.page-title {
+    font-size: 40px;
+    font-weight: 100;
+    color: #777777;
+    margin-bottom: 35px;
+}
+
 .google-search {
     width: 50%;
     float: left;
