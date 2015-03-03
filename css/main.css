@@ -527,10 +527,12 @@ hr {
 }
 
 .tag {
-    background: #BEBEBE;
-    color: #5E5E5E;
+    background: #6BAB6A;
+    color: #FFFFFF;
     display: inline-block;
     border-radius: 6px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .date {
