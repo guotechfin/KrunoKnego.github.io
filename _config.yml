@@ -16,6 +16,7 @@ gems:
 
 markdown: kramdown
 permalink: pretty
+relative_permalinks: true
 paginate: 20
 exclude:
   - README.md
