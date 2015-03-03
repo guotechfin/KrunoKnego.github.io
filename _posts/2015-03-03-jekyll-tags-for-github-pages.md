@@ -59,11 +59,11 @@ I've also simplified the logic for generating tags with their respective links:
 
 The important part is
 
-{% raw %}
-  {% for tag in post.tags %}
-    <a class="tag" href="/blog/tag/{{ tag }}/">{{ tag }}</a>
-  {% endfor %}
-{% endraw %}
+    {% raw %}
+      {% for tag in post.tags %}
+        <a class="tag" href="/blog/tag/{{ tag }}/">{{ tag }}</a>
+      {% endfor %}
+    {% endraw %}
 
 Which is considerably shorter then approach given on [tags-and-categories-on-github-pages](http://www.minddust.com/post/tags-and-categories-on-github-pages/)
 
