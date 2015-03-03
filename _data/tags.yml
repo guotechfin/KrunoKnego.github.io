@@ -1,0 +1,30 @@
+---
+- slug: php
+  name: PHP
+
+- slug: linux
+  name: Linux
+
+- slug: tar
+  name: TAR
+
+- slug: capifony
+  name: Capifony
+
+- slug: deployment
+  name: Deployment
+
+- slug: mysql
+  name: MYSQL
+
+- slug: zsh
+  name: ZSH
+
+- slug: symfony2
+  name: Symfony2
+
+- slug: kint
+  name: Kint
+
+- slug: debugging
+  name: Debugging
