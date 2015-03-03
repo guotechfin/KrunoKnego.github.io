@@ -43,6 +43,7 @@ For it to work you have to enable relative permalinks in your config.
 
 I've also simplified the logic for generating tags with their respective links:
 
+{% raw %}
     {% for post in paginator.posts %}
       <div class="post">
         <a class="post-link" title="{{ post.title }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -54,12 +55,15 @@ I've also simplified the logic for generating tags with their respective links:
       </div>
     <hr/>
     {% endfor %}
+{% endraw %}
 
 The important part is
 
+{% raw %}
   {% for tag in post.tags %}
     <a class="tag" href="/blog/tag/{{ tag }}/">{{ tag }}</a>
   {% endfor %}
+{% endraw %}
 
 Which is considerably shorter then approach given on [tags-and-categories-on-github-pages](http://www.minddust.com/post/tags-and-categories-on-github-pages/)
 
