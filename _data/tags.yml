@@ -67,3 +67,9 @@
 
 - slug: vagrant
   name: Vagrant
+
+- slug: jekyll
+  name: Jeykll
+
+- slug: github_pages
+  name: Github Pages
