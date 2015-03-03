@@ -28,3 +28,42 @@
 
 - slug: debugging
   name: Debugging
+
+- slug: composer
+  name: Composer
+
+- slug: soap
+  name: SOAP
+
+- slug: doctrine2
+  name: Doctrine2
+
+- slug: phpstorm
+  name: PHPStorm
+
+- slug: tmux
+  name: TMUX
+
+- slug: server_error
+  name: Server Error
+
+- slug: ssh
+  name: SSH
+
+- slug: regex
+  name: REGEX
+
+- slug: twig
+  name: TWIG
+
+- slug: scp
+  name: SCP
+
+- slug: phpmyadmin
+  name: PHPMyAdmin
+
+- slug: data_transformers
+  name: Data Transformers
+
+- slug: vagrant
+  name: Vagrant
