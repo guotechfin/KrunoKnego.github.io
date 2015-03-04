@@ -73,3 +73,6 @@
 
 - slug: github_pages
   name: Github Pages
+
+- slug: ansible
+  name: Ansible
