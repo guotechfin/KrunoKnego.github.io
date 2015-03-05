@@ -86,5 +86,5 @@ So there you have it. This configuration might take you a while to complete the 
 benefits it adds are enormous. No more searching where is password for serverA or
 username for serverB and so on.
 
-If you're interested in speeding up your ssh connection read more <a href="https://puppetlabs.com/blog/speed-up-ssh-by-reusing-connections" title="puppetlabs">here</a>.
+If you're interested in speeding up your ssh connection read more <a href="https://puppetlabs.com/blog/speed-up-ssh-by-reusing-connections" title="puppetlabs" data-proofer-ignore>here</a>.
 
