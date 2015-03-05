@@ -19,14 +19,14 @@
             {% assign current = nil %}
             {% if page.url == p.url %}
                 {% assign current = "active-url" %}
-            {% elsif (page.url|truncate: 4) == "page" and p.title == "Blog" %}
+            {% elsif page.url == "/page2/" and p.title == "Blog" %}
                 {% assign current = "active-url" %}
             {% endif %}
             <a title="{{ p.title }}" class="page-link {{ current }}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
           {% endif %}
         {% endfor %}
 
-          {{  page.url|truncate: 4 }}
+          {{  page.url }}
       </div>
     </nav>
   </div>
