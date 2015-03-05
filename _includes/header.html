@@ -25,6 +25,9 @@
             <a title="{{ p.title }}" class="page-link {{ current }}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
           {% endif %}
         {% endfor %}
+
+          {{  page.url|slice: 0,3 }}
+          {{ p.title }}
       </div>
     </nav>
   </div>
