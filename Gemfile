@@ -2,6 +2,7 @@ source "http://production.cf.rubygems.org/"
 
 gem "rake", "~> 10.1.1"
 gem "github-pages", "~> 15"
+gem "jekyll", "~> 2.0.0"
 gem "html-proofer"
 gem "jemoji"
 gem "jekyll-mentions"
