@@ -19,7 +19,7 @@
             {% assign current = nil %}
             {% if page.url == p.url %}
                 {% assign current = "active-url" %}
-            {% elseif page.url|slice(0,3) == "page" and p.title == "Blog" %}
+            {% elsif (page.url|slice: 0,3) == "page" and p.title == "Blog" %}
                 {% assign current = "active-url" %}
             {% endif %}
             <a title="{{ p.title }}" class="page-link {{ current }}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
