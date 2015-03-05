@@ -14,13 +14,15 @@
         </svg>
       </a>
       <div class="trigger" id="trigger-menu">
-        {% for page in site.pages %}
-          {% if page.title |length %}
-          <a title="{{ page.title }}" class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        {% for p in site.pages %}
+          {% if p.title |length %}
+            {% assign current = nil %}
+            {% if page.url == p.url %}
+                {% assign current = "active-url" %}
+            {% endif %}
+            <a title="{{ p.title }}" class="page-link {{ current }}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
           {% endif %}
         {% endfor %}
-
-          {{ page.url }}
       </div>
     </nav>
   </div>

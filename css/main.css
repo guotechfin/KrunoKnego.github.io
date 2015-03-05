@@ -580,3 +580,9 @@ tr:nth-child(even)    { background-color:#f7f7f7; }
 .google-search tr {
     background-color: #FFFFFF;
 }
+
+.active-url {
+    text-decoration: underline;
+    text-decoration-color: #333333;
+    -moz-text-decoration-color: #333333;
+}
