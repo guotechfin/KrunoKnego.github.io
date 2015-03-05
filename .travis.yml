@@ -1,12 +1,16 @@
 language: ruby
 rvm:
 - 2.1
-script: ./script/cibuild.sh
 
 # branch whitelist
 branches:
   only:
   - master
+
+before_script:
+ - chmod +x cibuild.sh
+
+script: ./cibuild.sh
 
 env:
   global:
