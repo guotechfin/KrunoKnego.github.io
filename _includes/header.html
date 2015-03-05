@@ -17,6 +17,7 @@
         {% for p in site.pages %}
           {% if p.title |length %}
             {% assign current = nil %}
+            {% assign pg = page.url | slice: 0, 5) %}
             {% if page.url == p.url %}
                 {% assign current = "active-url" %}
             {% elsif page.url == "/page2/" and p.title == "Blog" %}
@@ -26,7 +27,7 @@
           {% endif %}
         {% endfor %}
 
-          {{  page.url }}
+          {{  page.url | slice: 0, 5 }}
       </div>
     </nav>
   </div>
