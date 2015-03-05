@@ -17,17 +17,12 @@
         {% for p in site.pages %}
           {% if p.title |length %}
             {% assign current = nil %}
-            {% assign pg = page.url | slice: 0, 5) %}
             {% if page.url == p.url %}
-                {% assign current = "active-url" %}
-            {% elsif page.url == "/page2/" and p.title == "Blog" %}
                 {% assign current = "active-url" %}
             {% endif %}
             <a title="{{ p.title }}" class="page-link {{ current }}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
           {% endif %}
         {% endfor %}
-
-          {{  page.url | slice: 0, 5 }}
       </div>
     </nav>
   </div>
