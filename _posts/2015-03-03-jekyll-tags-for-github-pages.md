@@ -14,7 +14,7 @@ It converts dynamic content into static web pages.
 If you would like to host a web page on github you'd soon notice that you can't have dynamic content. That's
 exactly where jekyll comes in. It converts dynamic content of your blog into a series of static pages.
 
-To learn more about jekyll and how to configure it you can read at [jekyllrb.com](http://jekyllrb.com/).
+To learn more about jekyll and how to configure it you can read at [jekyllrb.com](http://jekyllrb.com/ "jekyllrb").
 
 ## Jekyll and tags
 
@@ -33,7 +33,7 @@ As you can see there is currently no tag plugin supported.
 ## Solution
 
 So what do we do? Well we build it ourselves.
-I've been searching for a solution and soon stumbled upon the following website [tags-and-categories-on-github-pages](http://www.minddust.com/post/tags-and-categories-on-github-pages/)
+I've been searching for a solution and soon stumbled upon the following website [tags-and-categories-on-github-pages](http://www.minddust.com/post/tags-and-categories-on-github-pages/ "minddust")
 
 The solution proposed on that website is good but some steps were omitted.
 For it to work you have to enable relative permalinks in your config.
@@ -65,7 +65,7 @@ The important part is
       {% endfor %}
     {% endraw %}
 
-Which is considerably shorter then approach given on [tags-and-categories-on-github-pages](http://www.minddust.com/post/tags-and-categories-on-github-pages/)
+Which is considerably shorter then approach given on [tags-and-categories-on-github-pages](http://www.minddust.com/post/tags-and-categories-on-github-pages/ "minddust categories and tags")
 
 ## Conclusion
 

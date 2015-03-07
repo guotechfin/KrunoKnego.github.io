@@ -26,7 +26,7 @@ your queries turn it back on <code>SET GLOBAL FOREIGN_KEY_CHECKS = 1</code>.
 
 ## Read more
 
-* [mysql-set-foreign-key-checks](http://stackoverflow.com/questions/8538636/mysql-set-foreign-key-checks)
-* [mysql-disable-foreign-key-checks-or-constraints](https://gauravsohoni.wordpress.com/2009/03/09/mysql-disable-foreign-key-checks-or-constraints/)
-* [how-to-temporarily-disable-a-foreign-key-constraint-in-mysql](http://stackoverflow.com/questions/15501673/how-to-temporarily-disable-a-foreign-key-constraint-in-mysql)
+* [mysql-set-foreign-key-checks](http://stackoverflow.com/questions/8538636/mysql-set-foreign-key-checks "dealing with mysql foreign key checks")
+* [mysql-disable-foreign-key-checks-or-constraints](https://gauravsohoni.wordpress.com/2009/03/09/mysql-disable-foreign-key-checks-or-constraints/ "disable mysql foreign key checks")
+* [how-to-temporarily-disable-a-foreign-key-constraint-in-mysql](http://stackoverflow.com/questions/15501673/how-to-temporarily-disable-a-foreign-key-constraint-in-mysql "temp disable fk check")
 

@@ -95,7 +95,7 @@ Mine for example looks like this:
 
 ## Travis
 
-Now after you've finished with configuring your github page for travis go to [travis-ci.org](https://travis-ci.org/)
+Now after you've finished with configuring your github page for travis go to [travis-ci.org](https://travis-ci.org/ "travis")
 and sign in with your github account. Finally turn on travis for your github pages repository.
 
 ## Conclusion

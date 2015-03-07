@@ -68,5 +68,5 @@ In the end there's no one to rule them all. It's mainly what you prefer using.
 
 ## Read More
 
-* [tar wiki](http://en.wikipedia.org/wiki/Tar_%28computing%29)
-* [tar man page](http://unixhelp.ed.ac.uk/CGI/man-cgi?tar)
+* [tar wiki](http://en.wikipedia.org/wiki/Tar_%28computing%29 "tar wiki")
+* [tar man page](http://unixhelp.ed.ac.uk/CGI/man-cgi?tar "tar man page")

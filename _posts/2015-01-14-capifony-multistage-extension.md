@@ -46,4 +46,4 @@ Next time I'll definitely be paying more attention to documentation and cookbook
 
 ## Read more
 
-* [using-the-multistage-extension](http://capifony.org/cookbook/using-the-multistage-extension.html)
+* [using-the-multistage-extension](http://capifony.org/cookbook/using-the-multistage-extension.html "using the multistage extension")
