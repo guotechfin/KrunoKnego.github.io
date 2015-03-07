@@ -76,3 +76,6 @@
 
 - slug: ansible
   name: Ansible
+
+- slug: travis
+  name: Travis
