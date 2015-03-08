@@ -170,15 +170,15 @@ And your extension file like this:
 
 Now to use your newly created filter within twig template you just write:
 
-{% highlight php5 %}
+{% raw %}
     {{ varWithHtml|regex|raw }}
-{% endhighlight %}
+{% endraw %}
 
 That will extract one image and one paragraph.
 
-{% highlight php5 %}
+{% raw %}
     {{ varWithHtml|regexPhoto|raw }}
-{% endhighlight %}
+{% endraw %}
 
 This will extract only one image.
 Raw filter is used to show the image and paragraph.
