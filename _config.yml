@@ -14,7 +14,7 @@ gems:
   - jekyll-redirect-from
   - jekyll-sitemap
 
-markdown: kramdown
+markdown: redcarpet
 permalink: pretty
 relative_permalinks: true
 paginate: 20
