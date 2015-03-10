@@ -584,3 +584,21 @@ tr:nth-child(even)    { background-color:#f7f7f7; }
 .active-url {
     text-decoration: underline;
 }
+
+.project-image {
+    float: left;
+    display: block;
+}
+
+.project-text {
+    float: right;
+    display: block;
+    width: 580px;
+    height: 200px;
+    position: relative;
+}
+
+.project-links {
+    position: absolute;
+    bottom: 0;
+}
