@@ -79,3 +79,6 @@
 
 - slug: travis
   name: Travis
+
+- slug: blackfire
+  name: Blackfire
