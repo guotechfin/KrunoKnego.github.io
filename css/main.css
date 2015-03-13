@@ -602,3 +602,23 @@ tr:nth-child(even)    { background-color:#f7f7f7; }
     position: absolute;
     bottom: 0;
 }
+
+.amazon-ad-container {
+    background: #FFFFFF;
+    width: 118px;
+    overflow: hidden;
+    height: 231px;
+    border: 1px solid #ddd;
+    padding: 3px 0;
+}
+
+.amazon-image .mc-my-email{
+    border:none !important;
+    margin:0px !important;
+}
+
+.google-ad {
+    display:inline-block;
+    width:728px;
+    height:90px;
+}
