@@ -6,7 +6,7 @@ categories: vagrant tools
 tags: [vagrant]
 ---
 
-![Vagrant]({{ site.url }}/assets/vagrant.jpg ){: .center-image}
+![Vagrant]({{ site.url }}/assets/vagrant.jpg ){: .center-image .hidden-phone}
 
 If you're doing web development and you never heard of Vagrant you better catch up and see what's the
 fuss all about. Basically once you see what Vagrant can do for you, you'll wonder why such tool
