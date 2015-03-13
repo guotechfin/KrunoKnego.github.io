@@ -1,6 +1,6 @@
 function generateRandomPosts()
 {
-    $.getJSON("/search.json", function(data) {
+    $.getJSON("/js/search.json", function(data) {
         var postsCount = data.length;
         var posts = data;
 
