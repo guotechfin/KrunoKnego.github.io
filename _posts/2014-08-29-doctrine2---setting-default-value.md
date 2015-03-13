@@ -7,7 +7,7 @@ tags: [symfony2, doctrine2]
 ---
 
 
-![Doctrine2]({{ site.url }}/assets/doctrine2.png ){: .center-image}
+![Doctrine2]({{ site.url }}/assets/doctrine2.png ){: .center-image .hidden-phone}
 
 There are two ways of setting default values for Doctrine2 entities.
 

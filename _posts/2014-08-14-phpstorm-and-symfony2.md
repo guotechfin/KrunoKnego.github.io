@@ -6,7 +6,7 @@ date: " 2014-08-14 11:09:39"
 tags: [phpstorm, symfony2]
 ---
 
-![PHPStorm]({{ site.url }}/assets/phpstorm.gif ){: .center-image}
+![PHPStorm]({{ site.url }}/assets/phpstorm.gif ){: .center-image .hidden-phone}
 
 PHPStorm like its name suggests is IDE for PHP. It's very advanced IDE with lots of
 features like multi-line editing, search&replace with regular expressions etc.

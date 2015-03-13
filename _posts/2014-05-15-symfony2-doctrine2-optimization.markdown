@@ -6,7 +6,7 @@ categories: symfony2 doctrine2 optimization
 tags: [symfony2, doctrine2]
 ---
 
-![Doctrine2]({{ site.url }}/assets/doctrine2.png ){: .center-image}
+![Doctrine2]({{ site.url }}/assets/doctrine2.png ){: .center-image .hidden-phone}
 
 If you ever found yourself asking why your doctrine2 is suddenly going slow or got "Killed" message in your terminal
 when you used doctrine then this post is for you.
