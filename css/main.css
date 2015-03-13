@@ -604,12 +604,8 @@ tr:nth-child(even)    { background-color:#f7f7f7; }
 }
 
 .amazon-ad-container {
-    background: #FFFFFF;
     width: 118px;
-    overflow: hidden;
-    height: 231px;
-    border: 1px solid #ddd;
-    padding: 3px 0;
+    float: left;
 }
 
 .amazon-image .mc-my-email{
