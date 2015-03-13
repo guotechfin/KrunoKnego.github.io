@@ -82,3 +82,6 @@
 
 - slug: blackfire
   name: Blackfire
+
+- slug: htaccess
+  name: Htaccess
