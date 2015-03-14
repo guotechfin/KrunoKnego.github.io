@@ -183,6 +183,7 @@ a.post-link {
   letter-spacing: -1.75px;
   line-height: 1;
   font-weight: 300;
+  padding-bottom: 10px;
 }
 
 .post-header h2 {
