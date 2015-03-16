@@ -34,7 +34,7 @@ Just make sure the path to your .htpasswd matches to the one in .htaccess.
 
 Before proceeding to editing its contents first you need to create password. The password needs to be in MD5 hash
 format. I know MD5 is not very safe and can be broken but we're not protecting our site from hackers but from crawlers.
-To get MD5 hash of your password you can use [md5hashgenerator](http://www.md5hashgenerator.com/ md5hashgenerator).
+To get MD5 hash of your password you can use [md5hashgenerator](http://www.md5hashgenerator.com/ "md5hashgenerator").
 
 Now fill contents of your .htpasswd so it looks like this:
 
