@@ -21,7 +21,7 @@ website using apache.
 
 First go to your <code>public_html</code> folder. Open your .htaccess file. If you don't have it then create one. If
 you're using shell you could accomplish that like this <code>touch .htaccess</code>.
-Now make sure you .htaccess file contains the following lines:
+Now make sure your .htaccess file contains the following lines:
 
     AuthType Basic
     AuthName "My Password Protected Site"
@@ -42,7 +42,7 @@ Now fill contents of your .htpasswd so it looks like this:
 
 The first value is username and the second value is your password in MD5 hash format.
 
-So this concludes this short tutorial and you're site will be now protected from crawlers.
+So this concludes this short tutorial and your site will be now protected from crawlers.
 If you were to open your site you'd be greeted with this screen:
 
 ![htpasswd]({{ site.url }}/assets/htpasswd.png )
