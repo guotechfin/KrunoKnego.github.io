@@ -52,4 +52,4 @@ site is working as intended.
 
 ## Read more
 
-    * [apache auth](http://httpd.apache.org/docs/2.2/howto/auth.html "apache auth")
+* [apache auth](http://httpd.apache.org/docs/2.2/howto/auth.html "apache auth")
