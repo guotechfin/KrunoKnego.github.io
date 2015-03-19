@@ -2,7 +2,7 @@
 layout: post
 title: "How to configure DigitalOcean's VPS and GoDaddy's domain"
 category: 
-date: " 2015-03-16 17:44:37"
+date: " 2015-03-19 22:03:34"
 tags: [digitalocan, godaddy]
 ---
 
@@ -43,5 +43,6 @@ If you wish to learn more about DNS definitely read a complete series of tutoria
 [an-introduction-to-managing-dns](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-managing-dns "An introduction to managing DNS")
 There you will learn what A, AAAA, CNAME and other cryptic acronyms mean and you will gain better understanding how
 whole communication between GoDaddy and DigitalOcean works.
+
 
 
