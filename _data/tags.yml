@@ -85,3 +85,12 @@
 
 - slug: htaccess
   name: Htaccess
+
+- slug: digitalocean
+  name: DigitalOcean
+
+- slug: godaddy
+  name: GoDaddy
+
+- slug: sylius
+  name: Sylius
