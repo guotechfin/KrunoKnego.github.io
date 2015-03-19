@@ -13,8 +13,6 @@ get started.
 
 First go to [GoDaddy](http://godaddy.com "Go Daddy") and sign in. Now open your domains and click manage.
 
-![GoDaddy DNS Configuration 1]({{ site.url }}/assets/dns1.png)
-
 ![GoDaddy DNS Configuration 2]({{ site.url }}/assets/dns2.png)
 
 Add digital ocean's nameservers. Their nameservers are:
@@ -31,8 +29,6 @@ region, operating system and stack which you want to use (LAMP, Wordpress, Docke
 
 Finally click on DNS and afterwards add domain. Enter URL of your website for example: mysite.com and just choose your
 droplet the IP Address part will be automatically filled.
-
-![DigitalOcean DNS Configuration 1]({{ site.url }}/assets/dns4.png)
 
 ![DigitalOcean DNS Configuration 2]({{ site.url }}/assets/dns5.png)
 
