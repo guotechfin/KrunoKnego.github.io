@@ -3,7 +3,7 @@ layout: post
 title: "How to configure DigitalOcean's VPS and GoDaddy's domain"
 category: 
 date: " 2015-03-19 22:03:34"
-tags: [digitalocan, godaddy]
+tags: [digitalocean, godaddy]
 ---
 
 So if you have bought a VPS on Digital Ocean and domain on GoDaddy and you're wondering how to make them work together
