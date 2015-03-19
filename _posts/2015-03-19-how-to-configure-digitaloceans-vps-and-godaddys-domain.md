@@ -28,10 +28,12 @@ haven't already done that. To create your droplet is really simple. It mostly co
 region, operating system and stack which you want to use (LAMP, Wordpress, Docker etc.).
 
 Finally click on DNS and afterwards add domain. Enter URL of your website for example: mysite.com and just choose your
-droplet the IP Address part will be automatically filled.
+droplet. The IP Address part will be automatically filled.
 
 ![DigitalOcean DNS Configuration 2]({{ site.url }}/assets/dns5.png)
 
+After you've clicked create domain button just wait for a few minutes so changes propagate
+through servers and then when you enter mysite.com it will point to your DigitalOcean's VPS.
 
 ## Read more
 
