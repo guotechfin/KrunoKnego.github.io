@@ -13,7 +13,7 @@ get started.
 
 First go to [GoDaddy](http://godaddy.com "Go Daddy") and sign in. Now open your domains and click manage.
 
-![GoDaddy DNS Configuration 2]({{ site.url }}/assets/dns2.png)
+![GoDaddy DNS Configuration 2]({{ site.url }}/assets/dns2.png){: .image }
 
 Add digital ocean's nameservers. Their nameservers are:
 
@@ -21,7 +21,7 @@ Add digital ocean's nameservers. Their nameservers are:
 * ns2.digitalocean.com
 * ns3.digitalocean.com
 
-![GoDaddy DNS Configuration 3]({{ site.url }}/assets/dns3.png)
+![GoDaddy DNS Configuration 3]({{ site.url }}/assets/dns3.png){: .image }
 
 Now head off to [DigitalOcean](https://cloud.digitalocean.com/ "Digital Ocean") sign in and create your droplet if you
 haven't already done that. To create your droplet is really simple. It mostly comes down to selection of your preferred
@@ -30,7 +30,7 @@ region, operating system and stack which you want to use (LAMP, Wordpress, Docke
 Finally click on DNS and afterwards add domain. Enter URL of your website for example: mysite.com and just choose your
 droplet. The IP Address part will be automatically filled.
 
-![DigitalOcean DNS Configuration 2]({{ site.url }}/assets/dns5.png)
+![DigitalOcean DNS Configuration 2]({{ site.url }}/assets/dns5.png){: .image }
 
 After you've clicked create domain button just wait for a few minutes so changes propagate
 through servers and then when you enter mysite.com it will point to your DigitalOcean's VPS.

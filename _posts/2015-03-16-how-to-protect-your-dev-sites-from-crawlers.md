@@ -45,7 +45,7 @@ The first value is username and the second value is your password in MD5 hash fo
 So this concludes this short tutorial and your site will be now protected from crawlers.
 If you were to open your site you'd be greeted with this screen:
 
-![htpasswd]({{ site.url }}/assets/htpasswd.png )
+![htpasswd]({{ site.url }}/assets/htpasswd.png ){: .image }
 
 After entering the correct credentials that prompt won't pop out anymore and you can easily test if your development
 site is working as intended.

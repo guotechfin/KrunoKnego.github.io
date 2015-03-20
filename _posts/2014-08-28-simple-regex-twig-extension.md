@@ -6,7 +6,7 @@ date: " 2014-08-28 17:55:46"
 tags: [symfony2, regex, twig]
 ---
 
-![Twig]({{ site.url }}/assets/twig.jpg ){: .center-image .hidden-phone}
+![Twig]({{ site.url }}/assets/twig.jpg ){: .center-image }
 
 This will be a short tutorial how to build twig extension that uses regular expressions.
 Let's say you have a html document in your variable and you want to extract image or paragraph
