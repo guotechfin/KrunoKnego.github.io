@@ -588,7 +588,7 @@ tr:nth-child(even)    { background-color:#f7f7f7; }
 }
 
 .active-url {
-    text-decoration: underline;
+    border-bottom: 8px solid #6BAB6A;
 }
 
 .project-image {
