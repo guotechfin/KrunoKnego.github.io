@@ -20,6 +20,9 @@
             {% if page.url == p.url %}
                 {% assign current = "active-url" %}
             {% endif %}
+            {% if p.title == "Blog" and p.url != "/bookshelf/" and p.url != "/projects/" and p.url != "/talks/" and p.url != "/about/" %}
+                {% assign current = "active-url" %}
+            {% endif %}
             <a title="{{ p.title }}" class="page-link {{ current }}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
           {% endif %}
         {% endfor %}
