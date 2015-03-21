@@ -591,10 +591,12 @@ tr:nth-child(even)    { background-color:#f7f7f7; }
     border-bottom: 8px solid #6BAB6A;
 }
 
+.project {
+
+}
+
 .project-image {
     float: left;
-    display: block;
-    max-width: 100%;
 }
 
 .project-text {
