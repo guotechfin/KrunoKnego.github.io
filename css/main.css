@@ -598,12 +598,8 @@ tr:nth-child(even)    { background-color:#f7f7f7; }
 }
 
 .project-text {
-    float: right;
-    display: block;
-    width: 580px;
-    height: 200px;
-    position: relative;
-    max-width: 100%;
+    float: left;
+    max-width: 400px;
 }
 
 .project-links {
