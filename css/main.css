@@ -591,10 +591,6 @@ tr:nth-child(even)    { background-color:#f7f7f7; }
     border-bottom: 8px solid #6BAB6A;
 }
 
-.project {
-
-}
-
 .project-image {
     float: left;
 }
@@ -602,11 +598,7 @@ tr:nth-child(even)    { background-color:#f7f7f7; }
 .project-text {
     float: left;
     max-width: 400px;
-}
-
-.project-links {
-    position: absolute;
-    bottom: 0;
+    margin-left: 3%;
 }
 
 .amazon-ad-container {
