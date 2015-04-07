@@ -94,3 +94,6 @@
 
 - slug: sylius
   name: Sylius
+
+- slug: vim
+  name: VIM
