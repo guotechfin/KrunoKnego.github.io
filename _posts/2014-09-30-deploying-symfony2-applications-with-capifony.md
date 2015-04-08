@@ -176,7 +176,7 @@ Create folders called releases and shared.
 When application is deployed capifony will clone your git repository in releases folder.
 In deploy.rb file there was line <code>set :keep_releases, 3</code> you can change that number to any amount you want.
 
-After your git repository has been clone it will get the latest release and symlink it on to current folder.
+After your git repository has been cloned it will get the latest release and symlink it on to current folder.
 Contents of your shared folder will be symlinked to your current folder.
 
 This is excellent when you have let's say user uploaded images. This will enable you to share your images across releases.
