@@ -26,7 +26,8 @@ Remote databases require more configuration. It isn't that difficult you just ne
 
 That's it. As you can see for yourself the configuration is really simple and straightforward, if you have all required
 details. The point of writing this blog post in the first place was that I lost a lot of time and almost gave up.
-Each time I filled details and clicked on Synchronize button I got an error.
+I was trying to connect to a remote database. I filled all necessary details, clicked on Synchronize button but
+always got error.
 
 java.rmi.ConnectException: Connection refused to host: localhost; nested exception
 
