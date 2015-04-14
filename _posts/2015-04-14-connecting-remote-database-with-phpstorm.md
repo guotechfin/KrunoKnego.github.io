@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Connecting remote database with PHPStorm"
+title: "Connecting to remote database with PHPStorm"
 category: 
 date: " 2015-04-14 23:40:47"
 tags: [phpstorm, vagrant]
