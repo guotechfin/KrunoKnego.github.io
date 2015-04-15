@@ -23,7 +23,7 @@ Add digital ocean's nameservers. Their nameservers are:
 
 ![GoDaddy DNS Configuration 3]({{ site.url }}/assets/dns3.png){: .image }
 
-Now head off to [DigitalOcean](https://cloud.digitalocean.com/ "Digital Ocean") sign in and create your droplet if you
+Now head off to <a href="https://cloud.digitalocean.com/" title="Digital Ocean" data-proofer-ignore>digital ocean</a>  sign in and create your droplet if you
 haven't already done that. To create your droplet is really simple. It mostly comes down to selection of your preferred
 region, operating system and stack which you want to use (LAMP, Wordpress, Docker etc.).
 
