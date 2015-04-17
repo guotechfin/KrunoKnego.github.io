@@ -18,6 +18,8 @@ I have a symfony2 command to execute which takes lots of time but I have to use 
 to do other things too. So I simply open a new session using tmux, call my symfony2 command,
 detach from it and continue with my job.
 
+<!--more-->
+
 ## How to install TMUX?
 
 {% highlight php5 %}

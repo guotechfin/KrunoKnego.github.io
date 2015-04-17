@@ -16,6 +16,7 @@ ORMs. I frequently received "Killed" messages, parsing data got increasingly slo
 for that project completely.
 
 But after fiddling a little bit more with doctrine2 I found that you can still use doctrine if you follow these few rules.
+<!--more-->
 
 ## Rule 1. Disable SQL-logging
 

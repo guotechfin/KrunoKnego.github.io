@@ -31,6 +31,7 @@ Apart from enabling you to access your services it enables you to create them re
 
 
 For example, if you were to create a service
+<!--more-->
 
 {% highlight php5 %}
     <?php

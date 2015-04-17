@@ -18,6 +18,7 @@ markdown: kramdown
 permalink: pretty
 relative_permalinks: true
 paginate: 20
+excerpt_separator: <!--more-->
 exclude:
   - README.md
   - Rakefile

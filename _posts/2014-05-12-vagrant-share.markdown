@@ -22,6 +22,7 @@ location. That's where vagrant share kicks in.
 With it you can show your clients your project without setting up and pushing your files to a server.
 
 Now how to enable such a thing? Well it's fairly simple.
+<!--more-->
 
 First go to <a title="Vagrant cloud" href="https://vagrantcloud.com/" target="_blank">Vagrant Cloud</a> and create an
 account.

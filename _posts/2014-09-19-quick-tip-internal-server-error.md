@@ -19,6 +19,7 @@ But this time the PHP's error log was empty and after some fiddling I checked Ap
 interesting (You can find Apache error log at /usr/local/apache/logs/error_log).
 
 "Premature end of script headers: app.php"
+<!--more-->
 
 Now if you were to google solution for that problem you would most likely come up with
 

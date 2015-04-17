@@ -31,6 +31,7 @@ sudo chmod +x /usr/local/bin/ssh-copy-id
 {% endhighlight %}
 
 Or you could use brew and install it like this:
+<!--more-->
 
 {% highlight bash  %}
     sudo brew install ssh-copy-id

@@ -63,6 +63,7 @@ So let's say you just made a SOAP request and you got response that looks someth
     </soap:Body>
 </soap:Envelope>
 {% endhighlight %}
+<!--more-->
 
 You may think hey it's easy I just need to use simplexml_load_string or simplxml_load_file and that's it.
 

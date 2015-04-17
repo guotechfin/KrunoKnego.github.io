@@ -12,6 +12,7 @@ tags: [symfony2, doctrine2]
 There are two ways of setting default values for Doctrine2 entities.
 
 The way I was familiar with is just to define your default value in construct of your entity.
+<!--more-->
 
 {% highlight php5 %}
     <?php

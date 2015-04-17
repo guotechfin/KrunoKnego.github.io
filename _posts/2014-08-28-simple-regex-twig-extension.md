@@ -16,6 +16,7 @@ that can help you accomplish that task  <a title="TWIG Documentation" href="http
 Luckily you can easily extend twig's initial set of functions and filters and it's fairly simple.
 
 First create folder named Twig in your bundle and then create RegexExtension.php and copy paste the following.
+<!--more-->
 
 {% highlight php5 %}
     <?php
