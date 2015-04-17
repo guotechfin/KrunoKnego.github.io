@@ -97,3 +97,9 @@
 
 - slug: vim
   name: VIM
+
+- slug: facebook
+  name: Facebook
+
+- slug: javascript
+  name: Javascript
