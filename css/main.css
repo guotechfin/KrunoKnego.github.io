@@ -591,16 +591,6 @@ tr:nth-child(even)    { background-color:#f7f7f7; }
     border-bottom: 8px solid #6BAB6A;
 }
 
-.project-image {
-    float: left;
-}
-
-.project-text {
-    float: left;
-    max-width: 400px;
-    margin-left: 3%;
-}
-
 .amazon-ad-container {
     width: 135px;
     float: left;
