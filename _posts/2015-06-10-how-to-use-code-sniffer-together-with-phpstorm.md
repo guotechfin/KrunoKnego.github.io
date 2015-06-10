@@ -25,7 +25,7 @@ So now you got CodeSniffer set up. What's missing now is its connection with PHP
 
 Go to <code>PHPStorm -> Preferences -> Languages & Frameworks -> PHP -> Code Sniffer</code>.
 
-Click on the three dots next to the <code>Local</code> and enter your phpcs path. In my case that <code>/usr/bin/phpcs</code>. Click on Validate and hopefully you'll get green message.
+Click on the three dots next to the <code>Local</code> and enter your phpcs path. In my case that was <code>/usr/bin/phpcs</code>. Click on Validate and hopefully you'll get green message.
 
 Now you have to chose by what standards you want to abide. You go to <code>PHPStorm -> Preferences -> Editor -> Inspections</code> select <code>PHP Code Sniffer Validation</code> and chose your code standard.
 
