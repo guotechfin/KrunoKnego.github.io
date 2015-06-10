@@ -27,7 +27,7 @@ Go to <code>PHPStorm -> Preferences -> Languages & Frameworks -> PHP -> Code Sni
 
 Click on the three dots next to the <code>Local</code> and enter your phpcs path. In my case that was <code>/usr/bin/phpcs</code>. Click on Validate and hopefully you'll get green message.
 
-Now you have to chose by what standards you want to abide. You go to <code>PHPStorm -> Preferences -> Editor -> Inspections</code> select <code>PHP Code Sniffer Validation</code> and chose your code standard.
+Now you have to choose by what standards you want to abide. You go to <code>PHPStorm -> Preferences -> Editor -> Inspections</code> select <code>PHP Code Sniffer Validation</code> and chose your code standard.
 
-That's it. Now when you write your code you'll see if you're following the standard. If you aren't, you'll see an exact message that will tell you what to change to fix it.
+That's it. Now when you write your code you'll see if you're following the standard. If you aren't, you'll see a message that will tell you what to change to fix it.
 
