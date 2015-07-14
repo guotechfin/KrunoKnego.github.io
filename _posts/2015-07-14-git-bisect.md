@@ -6,7 +6,7 @@ date: " 2015-07-14 20:38:23"
 tags: [git]
 ---
 
-You have a big project and it has 1000+ commits. A customer of yours reports you that there is a bug. You know that bug wasn't there before but you don't know exactly at what commit.
+You have a big project and it has 1000+ commits. A customer of yours reports you that there is a bug. You know that bug wasn't there before but you don't know exactly which commit is the problematic one.
 
 One option would be to go over commits one by one and try to find where it was working. Then you can compare that commit with the current one and see the difference. Unfortunately that will take a really long time. If only there was a quicker way to find the problematic commit. Enter git bisect.
 
