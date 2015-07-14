@@ -106,3 +106,9 @@
 
 - slug: jquery
   name: JQuery
+
+- slug: elasticsearch
+  name: Elastic Search
+
+- slug: elastica
+  name: Elastica
