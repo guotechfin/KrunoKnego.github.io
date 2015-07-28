@@ -637,15 +637,9 @@ tr:nth-child(even)    { background-color:#f7f7f7; }
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
-    color: #ffffff;
-    font-size: 20px;
+    color: #ffffff !important;
+    font-size: 15px;
     background: #6bab6a;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-}
-
-.btn:hover {
-    color: #6BAB6A;
-    background: #ffffff;
+    padding: 10px 20px;
     text-decoration: none;
 }
