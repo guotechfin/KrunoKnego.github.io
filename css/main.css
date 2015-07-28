@@ -638,7 +638,7 @@ tr:nth-child(even)    { background-color:#f7f7f7; }
     -moz-border-radius: 28;
     border-radius: 28px;
     color: #ffffff !important;
-    font-size: 15px;
+    font-size: 12px;
     background: #6bab6a;
     padding: 10px 20px;
     text-decoration: none;
